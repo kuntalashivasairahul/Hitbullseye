@@ -26,7 +26,7 @@ Assignment-5-Document-Extraction/
 │   ├── extraction_results.csv                # Tabular extraction runs
 │   └── field_accuracy_report.csv             # Field accuracy report table
 ├── README.md                                 # Full documentation
-└── report.pdf                                # Formatted multi-page publication report
+└── Assignment_5-23EG107E30.pdf               # Formatted multi-page publication report
 ```
 
 ---

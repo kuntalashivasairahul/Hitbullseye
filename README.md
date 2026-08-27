@@ -44,7 +44,7 @@ Hitbullseye/
 │   │   ├── evaluation_results.csv            # Detailed 200-run tabular export
 │   │   └── failure_catalogue.md              # Failure taxonomy & root-cause report
 │   ├── README.md                             # Assignment documentation
-│   └── report.pdf                            # Formatted multi-page publication report
+│   └── Assignment_3-23EG107E30.pdf           # Formatted multi-page publication report
 │
 ├── Assignment-4-AI-Coding-Workflow/          # ASSIGNMENT 4: AI-ASSISTED CODING WORKFLOW
 │   ├── graphs/                               # 4 Matplotlib visualization PNG charts
@@ -72,7 +72,7 @@ Hitbullseye/
 │   ├── defect-log.csv                        # Root CSV log of all 21 cataloged defects
 │   ├── time-log.csv                          # Root CSV log of unassisted vs assisted time
 │   ├── README.md                             # Assignment documentation
-│   └── report.pdf                            # Formatted multi-page publication report
+│   └── Assignment_4-23EG107E30.pdf           # Formatted multi-page publication report
 │
 └── Assignment-5-Document-Extraction/         # ASSIGNMENT 5: DOCUMENT EXTRACTION PIPELINE
     ├── data/                                 # Raw document text collections
@@ -93,7 +93,7 @@ Hitbullseye/
     │   ├── extraction_results.csv            # Tabular extraction runs
     │   └── field_accuracy_report.csv         # Field accuracy report table
     ├── README.md                             # Assignment documentation
-    └── report.pdf                            # Formatted multi-page publication report
+    └── Assignment_5-23EG107E30.pdf           # Formatted multi-page publication report
 ```
 
 ---
@@ -108,7 +108,7 @@ Hitbullseye/
   * `chain_of_thought` (v1.2.0): **4.56/5.00 avg score**, 100.0% format pass rate (**highest content quality** across all categories).
   * `structured_template` (v1.3.0): 4.34/5.00 avg score, 100.0% format pass rate (**optimal cost-to-accuracy ratio** for programmatic JSON pipelines).
 - **Core Deliverables**:
-  - Publication Report: [`Assignment-3-Prompt-Engineering/report.pdf`](Assignment-3-Prompt-Engineering/report.pdf)
+  - Publication Report: [`Assignment-3-Prompt-Engineering/Assignment_3-23EG107E30.pdf`](Assignment-3-Prompt-Engineering/Assignment_3-23EG107E30.pdf)
   - Scoring Rubric: [`Assignment-3-Prompt-Engineering/evaluation/rubric.md`](Assignment-3-Prompt-Engineering/evaluation/rubric.md)
   - Raw Templates: [`Assignment-3-Prompt-Engineering/prompts/`](Assignment-3-Prompt-Engineering/prompts/)
   - Failure Catalogue: [`Assignment-3-Prompt-Engineering/results/failure_catalogue.md`](Assignment-3-Prompt-Engineering/results/failure_catalogue.md)
@@ -122,7 +122,7 @@ Hitbullseye/
   * *Low / Negative Net ROI*: Debugging (+11.0%), Stateful Algorithms (+4.2%, with Sliding Window Rate Limiting at **-6.7% Negative ROI** due to subtle microsecond burst bugs).
 - **Defect Taxonomy**: 21 cataloged defects across `edge_case` (9), `logic` (5), `performance` (3), `security` (2), and `style` (2), exported in [`defect-log.csv`](Assignment-4-AI-Coding-Workflow/defect-log.csv).
 - **Core Deliverables**:
-  - Publication Report: [`Assignment-4-AI-Coding-Workflow/report.pdf`](Assignment-4-AI-Coding-Workflow/report.pdf)
+  - Publication Report: [`Assignment-4-AI-Coding-Workflow/Assignment_4-23EG107E30.pdf`](Assignment-4-AI-Coding-Workflow/Assignment_4-23EG107E30.pdf)
   - Defect & Time Logs: [`Assignment-4-AI-Coding-Workflow/defect-log.csv`](Assignment-4-AI-Coding-Workflow/defect-log.csv) & [`time-log.csv`](Assignment-4-AI-Coding-Workflow/time-log.csv)
   - 6-Point Checklist: [`Assignment-4-AI-Coding-Workflow/results/verification_checklist.md`](Assignment-4-AI-Coding-Workflow/results/verification_checklist.md)
   - Task Type Analysis: [`Assignment-4-AI-Coding-Workflow/results/task_type_analysis.md`](Assignment-4-AI-Coding-Workflow/results/task_type_analysis.md)
@@ -138,7 +138,7 @@ Hitbullseye/
   * **Post-Review Field Accuracy**: **93.4%**
 - **Economics & Scaling**: 89.2% cost reduction ($1.80 manual $\rightarrow$ $0.195 automated). Scaling to 100,000 docs/month yields **$160,500/month ($1.926M/year) net savings**.
 - **Core Deliverables**:
-  - Publication Report: [`Assignment-5-Document-Extraction/report.pdf`](Assignment-5-Document-Extraction/report.pdf)
+  - Publication Report: [`Assignment-5-Document-Extraction/Assignment_5-23EG107E30.pdf`](Assignment-5-Document-Extraction/Assignment_5-23EG107E30.pdf)
   - Raw TXT Collections: [`Assignment-5-Document-Extraction/data/`](Assignment-5-Document-Extraction/data/) (105 text files)
   - Ground Truth Export: [`Assignment-5-Document-Extraction/ground-truth/ground_truth.csv`](Assignment-5-Document-Extraction/ground-truth/ground_truth.csv)
   - Economic Cost Analysis: [`Assignment-5-Document-Extraction/results/cost_analysis.md`](Assignment-5-Document-Extraction/results/cost_analysis.md)

@@ -33,7 +33,7 @@ Assignment-4-AI-Coding-Workflow/
 ├── defect-log.csv                            # Root CSV log of all 21 cataloged defects
 ├── time-log.csv                              # Root CSV log of unassisted vs assisted time
 ├── README.md                                 # Full documentation
-└── report.pdf                                # Formatted multi-page publication report
+└── Assignment_4-23EG107E30.pdf               # Formatted multi-page publication report
 ```
 
 ---

@@ -27,7 +27,7 @@ Assignment-3-Prompt-Engineering/
 │   ├── evaluation_results.csv      # Detailed 200-run tabular export
 │   └── failure_catalogue.md        # Failure taxonomy & root-cause report
 ├── README.md                       # Comprehensive documentation
-└── report.pdf                      # Formatted multi-page publication report
+└── Assignment_3-23EG107E30.pdf     # Formatted multi-page publication report
 ```
 
 ---

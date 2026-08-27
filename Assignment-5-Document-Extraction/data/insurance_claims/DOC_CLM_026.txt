@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1066
+P0licy No: POL-526117
+Patient..: Marcus Thorne
+Hospital.: Vanderbilt University Medical
+Admitted : 2026-03-08
+ICD-10 Code: I10
+Claim Amt: 13036.78
+*streaks of carbon toner across footer*

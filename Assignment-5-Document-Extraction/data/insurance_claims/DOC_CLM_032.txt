@@ -1,0 +1,9 @@
+[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]
+Claim identifier: CLM-1072
+Ins Policy: POL-447235
+Patient: Sarah Jenkins (DOB verified)
+Clinic/Hospital: Saint Jude Medical Center
+Date admitted: 2026-05-06
+Diagnosis ICD10: K21.9
+Total requested: $8918.55
+Physician initial: DR. J.D.

@@ -1,0 +1,9 @@
+[HANDWRITTEN BILL OF SALE / INVOICE]
+From: Prime Office Solutions (Signed: J. Smith)
+Bill Ref # INV-10034
+Billed on: 2026-08-07
+Currency code: CAD
+Total line entries counted: 3
+Tax: 271.97
+Grand Total: 3568.55
+[Notes in margin: paid by company check #4401]

@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1054
+Policyholder Number: POL-431535
+Patient Full Name: Michael Chang
+Treating Facility: Mercy General Hospital
+Admission Date: 2026-08-20
+Primary Diagnosis Code (ICD-10): E11.9
+Total Claimed Charges: $14977.59
+Authorization Signature on File.
+====================================================

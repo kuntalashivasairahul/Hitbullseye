@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Vanguard Chemical Solutions
+Invoice Number: INV-10020
+Date: 2026-03-26
+Currency: CAD
+----------------------------------------------------
+Line Items Count: 7 items billed
+Subtotal: 2744.38 CAD
+Tax Amount (8.25%): 226.41 CAD
+Total Amount Due: 2970.79 CAD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

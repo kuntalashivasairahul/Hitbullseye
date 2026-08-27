@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1051
+Policyholder Number: POL-225710
+Patient Full Name: Marcus Thorne
+Treating Facility: Memorial Sloan Care Center
+Admission Date: 2026-01-20
+Primary Diagnosis Code (ICD-10): Z00.00
+Total Claimed Charges: $1688.76
+Authorization Signature on File.
+====================================================

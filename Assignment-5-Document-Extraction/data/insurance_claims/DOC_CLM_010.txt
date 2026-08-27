@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1050
+Policyholder Number: POL-992697
+Patient Full Name: Emily Rodriguez
+Treating Facility: Saint Jude Medical Center
+Admission Date: 2026-02-22
+Primary Diagnosis Code (ICD-10): S83.511A
+Total Claimed Charges: $12996.38
+Authorization Signature on File.
+====================================================

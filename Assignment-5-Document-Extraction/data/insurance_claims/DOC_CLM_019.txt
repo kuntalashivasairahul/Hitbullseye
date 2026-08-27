@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1059
+Policyholder Number: POL-262998
+Patient Full Name: Jessica Alpert
+Treating Facility: Cedars Sinai Regional Hospital
+Admission Date: 2026-04-23
+Primary Diagnosis Code (ICD-10): K21.9
+Total Claimed Charges: $5471.76
+Authorization Signature on File.
+====================================================

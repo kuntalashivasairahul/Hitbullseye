@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Vanguard Chemical Solutions
+Invoice Number: INV-10022
+Date: 2026-02-22
+Currency: GBP
+----------------------------------------------------
+Line Items Count: 5 items billed
+Subtotal: 3493.40 GBP
+Tax Amount (8.25%): 288.21 GBP
+Total Amount Due: 3781.61 GBP
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

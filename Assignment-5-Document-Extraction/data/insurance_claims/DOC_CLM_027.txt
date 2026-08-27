@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1067
+P0licy No: POL-532322
+Patient..: Sarah Jenkins
+Hospital.: Presbyterian Health Clinic
+Admitted : 2026-06-26
+ICD-10 Code: J45.909
+Claim Amt: 13996.83
+*streaks of carbon toner across footer*

@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Apex Cloud Technologies Inc.
+Invoice Number: INV-10009
+Date: 2026-05-27
+Currency: USD
+----------------------------------------------------
+Line Items Count: 6 items billed
+Subtotal: 2661.48 USD
+Tax Amount (8.25%): 219.57 USD
+Total Amount Due: 2881.05 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

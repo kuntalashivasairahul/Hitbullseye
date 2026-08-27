@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Beacon Electronics Group
+Invoice Number: INV-10024
+Date: 2026-03-17
+Currency: GBP
+----------------------------------------------------
+Line Items Count: 2 items billed
+Subtotal: 3936.76 GBP
+Tax Amount (8.25%): 324.78 GBP
+Total Amount Due: 4261.54 GBP
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

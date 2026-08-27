@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: NextGen Semiconductor Ltd
+Invoice Number: INV-10016
+Date: 2026-06-07
+Currency: CAD
+----------------------------------------------------
+Line Items Count: 8 items billed
+Subtotal: 1871.00 CAD
+Tax Amount (8.25%): 154.36 CAD
+Total Amount Due: 2025.36 CAD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

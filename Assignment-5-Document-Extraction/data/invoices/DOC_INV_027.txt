@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Sterling Automotive Parts
+lnvoice No : INV~10027
+Date (YYYY-MM-DD): 2026-05-08
+Currencv : USD
+Items Count: 1
+Tax Amt: 98.82
+TOTAL DUE: $1296.61 (inclusive)
+*faded watermark across bottom*

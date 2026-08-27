@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Horizon Media Works
+Invoice Number: INV-10008
+Date: 2026-08-18
+Currency: CAD
+----------------------------------------------------
+Line Items Count: 2 items billed
+Subtotal: 4383.05 CAD
+Tax Amount (8.25%): 361.60 CAD
+Total Amount Due: 4744.65 CAD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

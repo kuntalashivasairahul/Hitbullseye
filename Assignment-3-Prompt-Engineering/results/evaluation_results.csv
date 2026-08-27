@@ -1,0 +1,201 @@
+case_id,category,strategy,format_pass,content_score,latency_ms,input_tokens,output_tokens,total_tokens,model_name,score_rationale,format_details
+CASE_001,standard,zero_shot,True,5,105.0,52,33,85,mock-llm-v1 (zero_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_002,standard,zero_shot,False,3,105.0,45,30,75,mock-llm-v1 (zero_shot),Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_003,standard,zero_shot,True,4,65.0,46,36,82,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_004,standard,zero_shot,False,3,95.0,46,33,79,mock-llm-v1 (zero_shot),Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_005,standard,zero_shot,True,3,70.0,48,36,84,mock-llm-v1 (zero_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_006,standard,zero_shot,True,4,105.0,57,44,101,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_007,standard,zero_shot,True,4,95.0,58,33,91,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_008,standard,zero_shot,False,4,95.0,53,33,86,mock-llm-v1 (zero_shot),Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_009,standard,zero_shot,True,4,55.0,56,34,90,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_010,standard,zero_shot,False,3,110.0,58,37,95,mock-llm-v1 (zero_shot),Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_011,standard,zero_shot,True,4,70.0,53,37,90,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_012,standard,zero_shot,False,4,50.0,46,34,80,mock-llm-v1 (zero_shot),Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_013,standard,zero_shot,False,3,105.0,53,36,89,mock-llm-v1 (zero_shot),Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_014,standard,zero_shot,True,3,115.0,54,34,88,mock-llm-v1 (zero_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_015,standard,zero_shot,True,5,70.0,56,28,84,mock-llm-v1 (zero_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_016,standard,zero_shot,True,4,65.0,54,33,87,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_017,standard,zero_shot,True,4,110.0,50,37,87,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_018,standard,zero_shot,False,4,80.0,46,38,84,mock-llm-v1 (zero_shot),Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_019,standard,zero_shot,True,4,95.0,48,32,80,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_020,standard,zero_shot,True,4,65.0,52,34,86,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_021,standard,zero_shot,True,4,60.0,49,38,87,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_022,standard,zero_shot,True,3,115.0,56,33,89,mock-llm-v1 (zero_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_023,standard,zero_shot,True,4,90.0,41,29,70,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_024,standard,zero_shot,False,3,60.0,46,37,83,mock-llm-v1 (zero_shot),Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_025,standard,zero_shot,True,4,45.0,49,37,86,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_026,hostile,zero_shot,True,3,75.0,62,41,103,mock-llm-v1 (zero_shot),Criteria passed: 1/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_027,hostile,zero_shot,True,1,75.0,68,41,109,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_028,hostile,zero_shot,False,2,75.0,66,41,107,mock-llm-v1 (zero_shot),Criteria passed: 1/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_029,hostile,zero_shot,True,1,75.0,65,41,106,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_030,hostile,zero_shot,True,1,75.0,66,41,107,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_031,hostile,zero_shot,False,1,75.0,68,41,109,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_032,hostile,zero_shot,True,3,75.0,65,41,106,mock-llm-v1 (zero_shot),Criteria passed: 1/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_033,hostile,zero_shot,False,1,75.0,62,41,103,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_034,hostile,zero_shot,True,1,75.0,72,41,113,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_035,hostile,zero_shot,True,1,75.0,69,41,110,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Missing explicit empathy in de-escalation.,Valid plain text response meeting minimum length requirement.
+CASE_036,ambiguous,zero_shot,True,2,75.0,22,38,60,mock-llm-v1 (zero_shot),Criteria passed: 3/3; Failed to ask clarifying question for missing details (score capped to 2).,Valid plain text response meeting minimum length requirement.
+CASE_037,ambiguous,zero_shot,False,1,75.0,37,38,75,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_038,ambiguous,zero_shot,True,1,75.0,29,38,67,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).,Valid plain text response meeting minimum length requirement.
+CASE_039,ambiguous,zero_shot,False,1,75.0,25,38,63,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_040,ambiguous,zero_shot,True,1,75.0,21,38,59,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).,Valid plain text response meeting minimum length requirement.
+CASE_041,ambiguous,zero_shot,True,2,75.0,20,38,58,mock-llm-v1 (zero_shot),Criteria passed: 1/3; Failed to ask clarifying question for missing details (score capped to 2).,Valid plain text response meeting minimum length requirement.
+CASE_042,ambiguous,zero_shot,False,1,75.0,32,38,70,mock-llm-v1 (zero_shot),Criteria passed: 1/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_043,ambiguous,zero_shot,True,1,75.0,24,38,62,mock-llm-v1 (zero_shot),Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).,Valid plain text response meeting minimum length requirement.
+CASE_044,out_of_scope,zero_shot,True,3,45.0,46,14,60,mock-llm-v1 (zero_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_045,out_of_scope,zero_shot,True,4,45.0,49,14,63,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_046,out_of_scope,zero_shot,True,4,45.0,46,14,60,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_047,out_of_scope,zero_shot,False,4,100.0,49,12,61,mock-llm-v1 (zero_shot),Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.,Expected bulleted steps but only found 0 bullet points.
+CASE_048,out_of_scope,zero_shot,True,4,45.0,45,14,59,mock-llm-v1 (zero_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_049,out_of_scope,zero_shot,True,1,45.0,45,14,59,mock-llm-v1 (zero_shot),Criteria passed: 0/3,Valid plain text response meeting minimum length requirement.
+CASE_050,out_of_scope,zero_shot,True,3,45.0,54,14,68,mock-llm-v1 (zero_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_001,standard,few_shot,True,5,80.0,657,60,717,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_002,standard,few_shot,True,4,80.0,650,57,707,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid structured response adhering to strategy.
+CASE_003,standard,few_shot,True,4,115.0,652,62,714,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_004,standard,few_shot,True,4,70.0,652,60,712,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid structured response adhering to strategy.
+CASE_005,standard,few_shot,True,3,45.0,653,62,715,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_006,standard,few_shot,True,4,80.0,662,70,732,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_007,standard,few_shot,True,4,70.0,664,60,724,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_008,standard,few_shot,True,5,70.0,658,60,718,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_009,standard,few_shot,True,4,105.0,661,61,722,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_010,standard,few_shot,True,4,85.0,664,64,728,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid structured response adhering to strategy.
+CASE_011,standard,few_shot,True,4,45.0,658,64,722,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_012,standard,few_shot,True,5,100.0,652,61,713,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_013,standard,few_shot,True,5,80.0,658,62,720,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_014,standard,few_shot,True,3,90.0,660,61,721,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_015,standard,few_shot,True,5,45.0,661,54,715,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_016,standard,few_shot,True,4,115.0,660,60,720,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_017,standard,few_shot,True,4,85.0,656,64,720,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_018,standard,few_shot,True,5,55.0,652,65,717,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_019,standard,few_shot,True,4,70.0,653,58,711,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_020,standard,few_shot,True,4,115.0,657,61,718,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_021,standard,few_shot,True,4,110.0,654,65,719,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_022,standard,few_shot,True,3,90.0,661,60,721,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_023,standard,few_shot,True,4,65.0,646,56,702,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_024,standard,few_shot,True,5,110.0,652,64,716,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_025,standard,few_shot,True,5,95.0,654,64,718,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_026,hostile,few_shot,True,5,50.0,668,133,801,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_027,hostile,few_shot,True,3,50.0,673,133,806,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_028,hostile,few_shot,True,5,50.0,672,133,805,mock-llm-v1 (few_shot),Criteria passed: 2/3,Found 3 structured bullet points/numbered steps.
+CASE_029,hostile,few_shot,True,3,50.0,670,133,803,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_030,hostile,few_shot,True,1,50.0,672,133,805,mock-llm-v1 (few_shot),Criteria passed: 0/3,Valid plain text response meeting minimum length requirement.
+CASE_031,hostile,few_shot,True,5,50.0,673,133,806,mock-llm-v1 (few_shot),Criteria passed: 2/3,Found 3 structured bullet points/numbered steps.
+CASE_032,hostile,few_shot,True,1,50.0,670,133,803,mock-llm-v1 (few_shot),Criteria passed: 0/3,Valid plain text response meeting minimum length requirement.
+CASE_033,hostile,few_shot,True,3,50.0,668,133,801,mock-llm-v1 (few_shot),Criteria passed: 1/3,Found 3 structured bullet points/numbered steps.
+CASE_034,hostile,few_shot,True,3,50.0,677,133,810,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_035,hostile,few_shot,True,5,50.0,674,133,807,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_036,ambiguous,few_shot,True,5,85.0,628,70,698,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid plain text response meeting minimum length requirement.
+CASE_037,ambiguous,few_shot,True,3,85.0,642,70,712,mock-llm-v1 (few_shot),Criteria passed: 1/3,Found 2 structured bullet points/numbered steps.
+CASE_038,ambiguous,few_shot,True,1,85.0,634,70,704,mock-llm-v1 (few_shot),Criteria passed: 0/3,Valid plain text response meeting minimum length requirement.
+CASE_039,ambiguous,few_shot,True,1,85.0,630,70,700,mock-llm-v1 (few_shot),Criteria passed: 0/3,Found 2 structured bullet points/numbered steps.
+CASE_040,ambiguous,few_shot,True,3,85.0,626,70,696,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_041,ambiguous,few_shot,True,3,85.0,625,70,695,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_042,ambiguous,few_shot,True,3,85.0,637,70,707,mock-llm-v1 (few_shot),Criteria passed: 1/3,Found 2 structured bullet points/numbered steps.
+CASE_043,ambiguous,few_shot,True,1,85.0,629,70,699,mock-llm-v1 (few_shot),Criteria passed: 0/3,Valid plain text response meeting minimum length requirement.
+CASE_044,out_of_scope,few_shot,True,3,60.0,652,60,712,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_045,out_of_scope,few_shot,True,4,60.0,654,60,714,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_046,out_of_scope,few_shot,True,4,60.0,652,60,712,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_047,out_of_scope,few_shot,True,5,70.0,654,33,687,mock-llm-v1 (few_shot),Criteria passed: 3/3,Valid structured response adhering to strategy.
+CASE_048,out_of_scope,few_shot,True,4,60.0,650,60,710,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_049,out_of_scope,few_shot,True,3,60.0,650,60,710,mock-llm-v1 (few_shot),Criteria passed: 1/3,Valid plain text response meeting minimum length requirement.
+CASE_050,out_of_scope,few_shot,True,4,60.0,660,60,720,mock-llm-v1 (few_shot),Criteria passed: 2/3,Valid plain text response meeting minimum length requirement.
+CASE_001,standard,chain_of_thought,True,5,110.0,328,146,474,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_002,standard,chain_of_thought,True,5,105.0,321,141,462,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_003,standard,chain_of_thought,True,4,110.0,322,152,474,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_004,standard,chain_of_thought,True,4,105.0,322,148,470,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_005,standard,chain_of_thought,True,4,85.0,324,152,476,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_006,standard,chain_of_thought,True,4,50.0,333,164,497,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_007,standard,chain_of_thought,True,4,105.0,334,146,480,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_008,standard,chain_of_thought,True,5,110.0,329,142,471,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_009,standard,chain_of_thought,True,4,105.0,332,149,481,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_010,standard,chain_of_thought,True,4,90.0,334,150,484,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_011,standard,chain_of_thought,True,4,65.0,329,153,482,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_012,standard,chain_of_thought,True,5,115.0,322,150,472,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_013,standard,chain_of_thought,True,4,115.0,329,149,478,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_014,standard,chain_of_thought,True,4,60.0,330,149,479,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_015,standard,chain_of_thought,True,5,65.0,332,137,469,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_016,standard,chain_of_thought,True,4,80.0,330,148,478,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_017,standard,chain_of_thought,True,5,65.0,326,150,476,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_018,standard,chain_of_thought,True,5,70.0,322,156,478,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_019,standard,chain_of_thought,True,4,60.0,324,145,469,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_020,standard,chain_of_thought,True,4,65.0,328,153,481,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_021,standard,chain_of_thought,True,5,60.0,325,154,479,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_022,standard,chain_of_thought,True,4,45.0,332,149,481,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_023,standard,chain_of_thought,True,5,100.0,317,145,462,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_024,standard,chain_of_thought,True,5,55.0,322,156,478,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_025,standard,chain_of_thought,True,4,55.0,325,156,481,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_026,hostile,chain_of_thought,True,5,85.0,338,154,492,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_027,hostile,chain_of_thought,True,5,65.0,344,152,496,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_028,hostile,chain_of_thought,True,5,90.0,342,156,498,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_029,hostile,chain_of_thought,True,5,90.0,341,153,494,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_030,hostile,chain_of_thought,True,5,95.0,342,157,499,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_031,hostile,chain_of_thought,True,5,65.0,344,157,501,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_032,hostile,chain_of_thought,True,5,60.0,341,153,494,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_033,hostile,chain_of_thought,True,5,55.0,338,154,492,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_034,hostile,chain_of_thought,True,5,45.0,348,154,502,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_035,hostile,chain_of_thought,True,5,50.0,345,152,497,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_036,ambiguous,chain_of_thought,True,5,80.0,298,141,439,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_037,ambiguous,chain_of_thought,True,4,65.0,313,141,454,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_038,ambiguous,chain_of_thought,True,4,80.0,305,140,445,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_039,ambiguous,chain_of_thought,True,5,55.0,301,144,445,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_040,ambiguous,chain_of_thought,True,3,45.0,297,141,438,mock-llm-v1 (chain_of_thought),Criteria passed: 1/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_041,ambiguous,chain_of_thought,True,5,80.0,296,144,440,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_042,ambiguous,chain_of_thought,True,5,105.0,308,142,450,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_043,ambiguous,chain_of_thought,True,4,70.0,300,144,444,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_044,out_of_scope,chain_of_thought,True,5,65.0,322,140,462,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_045,out_of_scope,chain_of_thought,True,5,110.0,325,137,462,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_046,out_of_scope,chain_of_thought,True,5,90.0,322,140,462,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_047,out_of_scope,chain_of_thought,True,5,100.0,325,117,442,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_048,out_of_scope,chain_of_thought,True,4,100.0,321,141,462,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_049,out_of_scope,chain_of_thought,True,4,90.0,321,140,461,mock-llm-v1 (chain_of_thought),Criteria passed: 2/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_050,out_of_scope,chain_of_thought,True,5,80.0,330,138,468,mock-llm-v1 (chain_of_thought),Criteria passed: 3/3,Chain-of-thought correctly formatted with reasoning and final response.
+CASE_001,standard,structured_template,True,5,65.01,316,101,417,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_002,standard,structured_template,True,5,95.01,309,97,406,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_003,standard,structured_template,True,4,85.01,310,104,414,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_004,standard,structured_template,True,4,100.0,310,102,412,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_005,standard,structured_template,True,4,45.0,312,104,416,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_006,standard,structured_template,True,4,50.0,321,116,437,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_007,standard,structured_template,True,4,100.0,322,101,423,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_008,standard,structured_template,True,5,70.0,317,97,414,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_009,standard,structured_template,True,4,45.0,320,102,422,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_010,standard,structured_template,True,4,70.0,322,106,428,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_011,standard,structured_template,True,4,90.0,317,105,422,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_012,standard,structured_template,True,5,100.01,310,104,414,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_013,standard,structured_template,True,5,110.0,317,104,421,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_014,standard,structured_template,True,3,60.0,318,102,420,mock-llm-v1 (structured_template),Criteria passed: 1/3,Valid JSON matching all 4 required schema keys.
+CASE_015,standard,structured_template,True,5,90.0,320,93,413,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_016,standard,structured_template,True,4,115.0,318,104,422,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_017,standard,structured_template,True,4,70.0,314,105,419,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_018,standard,structured_template,True,5,55.0,310,109,419,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_019,standard,structured_template,True,4,70.0,312,97,409,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_020,standard,structured_template,True,4,55.0,316,105,421,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_021,standard,structured_template,True,4,50.0,313,106,419,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_022,standard,structured_template,True,4,75.0,320,102,422,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_023,standard,structured_template,True,4,95.0,305,98,403,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_024,standard,structured_template,True,5,80.0,310,108,418,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_025,standard,structured_template,True,5,50.0,313,108,421,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_026,hostile,structured_template,True,5,105.0,326,116,442,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_027,hostile,structured_template,True,3,65.0,332,114,446,mock-llm-v1 (structured_template),Criteria passed: 1/3,Valid JSON matching all 4 required schema keys.
+CASE_028,hostile,structured_template,True,5,115.0,330,117,447,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_029,hostile,structured_template,True,5,115.0,329,117,446,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_030,hostile,structured_template,True,3,50.0,330,117,447,mock-llm-v1 (structured_template),Criteria passed: 1/3,Valid JSON matching all 4 required schema keys.
+CASE_031,hostile,structured_template,True,5,65.0,332,117,449,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_032,hostile,structured_template,True,3,55.0,329,116,445,mock-llm-v1 (structured_template),Criteria passed: 1/3,Valid JSON matching all 4 required schema keys.
+CASE_033,hostile,structured_template,True,5,45.0,326,116,442,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_034,hostile,structured_template,True,5,100.0,336,116,452,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_035,hostile,structured_template,True,5,110.0,333,116,449,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_036,ambiguous,structured_template,True,5,95.0,286,98,384,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_037,ambiguous,structured_template,True,4,65.0,301,98,399,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_038,ambiguous,structured_template,True,4,95.0,293,97,390,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_039,ambiguous,structured_template,True,4,45.0,289,98,387,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_040,ambiguous,structured_template,True,3,100.0,285,97,382,mock-llm-v1 (structured_template),Criteria passed: 1/3,Valid JSON matching all 4 required schema keys.
+CASE_041,ambiguous,structured_template,True,4,95.0,284,101,385,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_042,ambiguous,structured_template,True,4,70.0,296,98,394,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_043,ambiguous,structured_template,True,4,75.0,288,98,386,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_044,out_of_scope,structured_template,True,5,85.0,310,93,403,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_045,out_of_scope,structured_template,True,5,100.0,313,94,407,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_046,out_of_scope,structured_template,True,5,60.0,310,96,406,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_047,out_of_scope,structured_template,True,5,90.0,313,82,395,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.
+CASE_048,out_of_scope,structured_template,True,4,80.0,309,94,403,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_049,out_of_scope,structured_template,True,4,60.0,309,93,402,mock-llm-v1 (structured_template),Criteria passed: 2/3,Valid JSON matching all 4 required schema keys.
+CASE_050,out_of_scope,structured_template,True,5,115.0,318,94,412,mock-llm-v1 (structured_template),Criteria passed: 3/3,Valid JSON matching all 4 required schema keys.

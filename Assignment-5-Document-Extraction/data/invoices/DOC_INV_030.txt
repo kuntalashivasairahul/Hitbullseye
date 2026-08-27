@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: NextGen Semiconductor Ltd
+lnvoice No : INV~10030
+Date (YYYY-MM-DD): 2026-04-23
+Currencv : GBP
+Items Count: 5
+Tax Amt: 155.56
+TOTAL DUE: $2041.18 (inclusive)
+*faded watermark across bottom*

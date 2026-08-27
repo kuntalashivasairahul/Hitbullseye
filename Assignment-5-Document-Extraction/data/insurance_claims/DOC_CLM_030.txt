@@ -1,0 +1,9 @@
+[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]
+Claim identifier: CLM-1070
+Ins Policy: POL-333752
+Patient: Sarah Jenkins (DOB verified)
+Clinic/Hospital: Stanford Health Pavilion
+Date admitted: 2026-04-13
+Diagnosis ICD10: E11.9
+Total requested: $5259.80
+Physician initial: DR. J.D.

@@ -1,0 +1,9 @@
+[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]
+Claim identifier: CLM-1071
+Ins Policy: POL-910891
+Patient: Jessica Alpert (DOB verified)
+Clinic/Hospital: Northwestern Medical Center
+Date admitted: 2026-07-22
+Diagnosis ICD10: R05
+Total requested: $14726.67
+Physician initial: DR. J.D.

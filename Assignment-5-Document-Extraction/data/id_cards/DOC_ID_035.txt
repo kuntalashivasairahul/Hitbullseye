@@ -1,0 +1,8 @@
+-- IDENTITY CARD (MOBILE PHOTO / GLARE) --
+DocType: tax_id
+ID No: TAX-9925436
+Name: Priya Patel
+DOB (YYYY-MM-DD): 1968-11-10
+Expires: 2034-11-24
+Country/Nat: Germany
+*flash reflection obscuring hologram strip*

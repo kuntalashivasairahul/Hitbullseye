@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1047
+Policyholder Number: POL-399105
+Patient Full Name: Amanda L. Vance
+Treating Facility: Vanderbilt University Medical
+Admission Date: 2026-08-05
+Primary Diagnosis Code (ICD-10): J45.909
+Total Claimed Charges: $3253.52
+Authorization Signature on File.
+====================================================

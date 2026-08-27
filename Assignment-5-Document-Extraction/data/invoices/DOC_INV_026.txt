@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Summit Enterprise Hardware
+lnvoice No : INV~10026
+Date (YYYY-MM-DD): 2026-06-16
+Currencv : GBP
+Items Count: 1
+Tax Amt: 52.52
+TOTAL DUE: $689.14 (inclusive)
+*faded watermark across bottom*

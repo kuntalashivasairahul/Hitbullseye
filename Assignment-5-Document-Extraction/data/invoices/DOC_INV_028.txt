@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Apex Cloud Technologies Inc.
+lnvoice No : INV~10028
+Date (YYYY-MM-DD): 2026-08-27
+Currencv : EUR
+Items Count: 2
+Tax Amt: 363.35
+TOTAL DUE: $4767.58 (inclusive)
+*faded watermark across bottom*

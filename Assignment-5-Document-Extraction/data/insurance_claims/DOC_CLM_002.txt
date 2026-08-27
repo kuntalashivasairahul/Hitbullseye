@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1042
+Policyholder Number: POL-939482
+Patient Full Name: Michael Chang
+Treating Facility: Memorial Sloan Care Center
+Admission Date: 2026-04-07
+Primary Diagnosis Code (ICD-10): I10
+Total Claimed Charges: $8276.14
+Authorization Signature on File.
+====================================================

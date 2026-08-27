@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Acme Industrial Supply LLC
+lnvoice No : INV~10032
+Date (YYYY-MM-DD): 2026-04-19
+Currencv : USD
+Items Count: 4
+Tax Amt: 14.96
+TOTAL DUE: $196.24 (inclusive)
+*faded watermark across bottom*

@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Prime Office Solutions
+Invoice Number: INV-10014
+Date: 2026-04-22
+Currency: USD
+----------------------------------------------------
+Line Items Count: 6 items billed
+Subtotal: 3816.41 USD
+Tax Amount (8.25%): 314.85 USD
+Total Amount Due: 4131.26 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

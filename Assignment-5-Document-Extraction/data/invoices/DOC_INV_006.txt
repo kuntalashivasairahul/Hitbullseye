@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Prime Office Solutions
+Invoice Number: INV-10006
+Date: 2026-03-07
+Currency: CAD
+----------------------------------------------------
+Line Items Count: 6 items billed
+Subtotal: 594.61 CAD
+Tax Amount (8.25%): 49.06 CAD
+Total Amount Due: 643.67 CAD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

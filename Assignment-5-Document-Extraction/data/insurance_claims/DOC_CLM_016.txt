@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1056
+Policyholder Number: POL-356150
+Patient Full Name: Robert T. Harrison
+Treating Facility: Cedars Sinai Regional Hospital
+Admission Date: 2026-03-15
+Primary Diagnosis Code (ICD-10): K21.9
+Total Claimed Charges: $12589.30
+Authorization Signature on File.
+====================================================

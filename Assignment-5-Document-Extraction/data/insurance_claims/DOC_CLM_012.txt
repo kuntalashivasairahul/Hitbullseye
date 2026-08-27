@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1052
+Policyholder Number: POL-692683
+Patient Full Name: Priya Patel
+Treating Facility: Northwestern Medical Center
+Admission Date: 2026-05-07
+Primary Diagnosis Code (ICD-10): F41.1
+Total Claimed Charges: $10211.03
+Authorization Signature on File.
+====================================================

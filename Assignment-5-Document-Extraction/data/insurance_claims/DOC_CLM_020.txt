@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1060
+Policyholder Number: POL-629959
+Patient Full Name: James O'Connor
+Treating Facility: Cedars Sinai Regional Hospital
+Admission Date: 2026-01-03
+Primary Diagnosis Code (ICD-10): K21.9
+Total Claimed Charges: $9697.12
+Authorization Signature on File.
+====================================================

@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1065
+P0licy No: POL-475190
+Patient..: David K. Miller
+Hospital.: Stanford Health Pavilion
+Admitted : 2026-04-22
+ICD-10 Code: R05
+Claim Amt: 1990.51
+*streaks of carbon toner across footer*

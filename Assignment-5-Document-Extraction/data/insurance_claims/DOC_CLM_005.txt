@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1045
+Policyholder Number: POL-197793
+Patient Full Name: David K. Miller
+Treating Facility: Presbyterian Health Clinic
+Admission Date: 2026-07-16
+Primary Diagnosis Code (ICD-10): S83.511A
+Total Claimed Charges: $7479.70
+Authorization Signature on File.
+====================================================

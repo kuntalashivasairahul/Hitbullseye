@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Global Logistics Corp
+Invoice Number: INV-10017
+Date: 2026-05-05
+Currency: GBP
+----------------------------------------------------
+Line Items Count: 4 items billed
+Subtotal: 3390.70 GBP
+Tax Amount (8.25%): 279.73 GBP
+Total Amount Due: 3670.43 GBP
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

@@ -1,0 +1,8 @@
+-- IDENTITY CARD (MOBILE PHOTO / GLARE) --
+DocType: tax_id
+ID No: TAX-5393739
+Name: Emily Rodriguez
+DOB (YYYY-MM-DD): 1986-06-18
+Expires: 2033-02-24
+Country/Nat: India
+*flash reflection obscuring hologram strip*

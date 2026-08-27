@@ -1,0 +1,10 @@
+GOVERNMENT IDENTITY VERIFICATION DOCUMENT
+====================================================
+Document Type: Tax Id
+Document ID Number: TAX-5013879
+Full Legal Name: Jessica Alpert
+Date of Birth: 1993-02-23
+Expiration Date: 2031-04-09
+Nationality / Citizenship: France
+Security Microprint & Biometric Chip Verified.
+====================================================

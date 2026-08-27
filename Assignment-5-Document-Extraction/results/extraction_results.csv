@@ -1,0 +1,101 @@
+doc_id,doc_type,quality_tier,status,routing_decision,confidence_score,schema_valid,rejection_reason,total_fields,exact_matches,normalized_matches
+DOC_001,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_002,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_003,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_004,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_005,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_006,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_007,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_008,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_009,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_010,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_011,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_012,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_013,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_014,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_015,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_016,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_017,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_018,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_019,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_020,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_021,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_022,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_023,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_024,invoice,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.964,True,,7,7,7
+DOC_025,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_026,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_027,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_028,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_029,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_030,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_031,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_032,invoice,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.744,False,,7,6,6
+DOC_033,invoice,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.737,True,,7,6,6
+DOC_034,invoice,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.737,True,,7,6,6
+DOC_035,invoice,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.737,True,,7,6,6
+DOC_036,invoice,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.737,True,,7,6,6
+DOC_037,invoice,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_038,invoice,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_039,invoice,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_040,invoice,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_041,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_042,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_043,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_044,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_045,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_046,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_047,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_048,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_049,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_050,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_051,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,7,7
+DOC_052,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_053,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_054,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_055,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_056,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_057,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_058,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_059,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_060,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_061,insurance_claim,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.863,True,,7,6,6
+DOC_062,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_063,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_064,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_065,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_066,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_067,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_068,insurance_claim,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.751,True,,7,6,6
+DOC_069,insurance_claim,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.726,True,,7,7,7
+DOC_070,insurance_claim,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.726,True,,7,7,7
+DOC_071,insurance_claim,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.726,True,,7,7,7
+DOC_072,insurance_claim,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.726,True,,7,7,7
+DOC_073,insurance_claim,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_074,insurance_claim,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_075,insurance_claim,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_076,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_077,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_078,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_079,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_080,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,4,4
+DOC_081,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_082,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_083,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_084,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_085,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,4,4
+DOC_086,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_087,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,4,4
+DOC_088,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,4,4
+DOC_089,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,4,4
+DOC_090,kyc_identity,clean,SUCCESS,STRAIGHT_THROUGH_PROCESSING,0.975,True,,6,5,5
+DOC_091,kyc_identity,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.825,True,,6,5,5
+DOC_092,kyc_identity,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.825,True,,6,5,5
+DOC_093,kyc_identity,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.825,True,,6,5,5
+DOC_094,kyc_identity,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.825,True,,6,5,5
+DOC_095,kyc_identity,degraded,SUCCESS,HUMAN_REVIEW_QUEUE,0.825,True,,6,6,6
+DOC_096,kyc_identity,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.735,True,,6,5,5
+DOC_097,kyc_identity,handwritten,SUCCESS,HUMAN_REVIEW_QUEUE,0.735,True,,6,6,6
+DOC_098,kyc_identity,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_099,kyc_identity,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0
+DOC_100,kyc_identity,unreadable,REJECTED,REJECTION_QUEUE,0.0,False,"Document unreadable, severely degraded, or out-of-scope",0,0,0

@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1044
+Policyholder Number: POL-564656
+Patient Full Name: Priya Patel
+Treating Facility: Saint Jude Medical Center
+Admission Date: 2026-01-21
+Primary Diagnosis Code (ICD-10): M54.5
+Total Claimed Charges: $14989.60
+Authorization Signature on File.
+====================================================

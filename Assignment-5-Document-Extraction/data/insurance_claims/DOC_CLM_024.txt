@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1064
+P0licy No: POL-255287
+Patient..: Amanda L. Vance
+Hospital.: Presbyterian Health Clinic
+Admitted : 2026-01-10
+ICD-10 Code: M54.5
+Claim Amt: 5787.45
+*streaks of carbon toner across footer*

@@ -1,0 +1,9 @@
+[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]
+Claim identifier: CLM-1069
+Ins Policy: POL-333238
+Patient: David K. Miller (DOB verified)
+Clinic/Hospital: Mayo Regional Care Facility
+Date admitted: 2026-06-10
+Diagnosis ICD10: J45.909
+Total requested: $12397.78
+Physician initial: DR. J.D.

@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Horizon Media Works
+Invoice Number: INV-10018
+Date: 2026-07-19
+Currency: EUR
+----------------------------------------------------
+Line Items Count: 7 items billed
+Subtotal: 1724.68 EUR
+Tax Amount (8.25%): 142.29 EUR
+Total Amount Due: 1866.97 EUR
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

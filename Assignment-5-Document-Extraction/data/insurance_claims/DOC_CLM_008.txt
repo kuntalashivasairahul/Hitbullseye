@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1048
+Policyholder Number: POL-161324
+Patient Full Name: Marcus Thorne
+Treating Facility: Vanderbilt University Medical
+Admission Date: 2026-01-24
+Primary Diagnosis Code (ICD-10): M54.5
+Total Claimed Charges: $5047.27
+Authorization Signature on File.
+====================================================

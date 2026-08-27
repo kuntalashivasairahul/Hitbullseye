@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Global Logistics Corp
+lnvoice No : INV~10029
+Date (YYYY-MM-DD): 2026-08-18
+Currencv : CAD
+Items Count: 3
+Tax Amt: 107.50
+TOTAL DUE: $1410.50 (inclusive)
+*faded watermark across bottom*

@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1061
+Policyholder Number: POL-146228
+Patient Full Name: Sarah Jenkins
+Treating Facility: Northwestern Medical Center
+Admission Date: 2026-03-21
+Primary Diagnosis Code (ICD-10): I10
+Total Claimed Charges: $14707.07
+Authorization Signature on File.
+====================================================

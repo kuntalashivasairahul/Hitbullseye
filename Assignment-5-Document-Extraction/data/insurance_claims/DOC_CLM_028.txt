@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1068
+P0licy No: POL-379766
+Patient..: Emily Rodriguez
+Hospital.: Vanderbilt University Medical
+Admitted : 2026-02-13
+ICD-10 Code: N39.0
+Claim Amt: 13146.42
+*streaks of carbon toner across footer*

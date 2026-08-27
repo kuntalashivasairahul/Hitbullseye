@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Quantum Data Systems
+Invoice Number: INV-10021
+Date: 2026-08-17
+Currency: USD
+----------------------------------------------------
+Line Items Count: 5 items billed
+Subtotal: 4374.19 USD
+Tax Amount (8.25%): 360.87 USD
+Total Amount Due: 4735.06 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

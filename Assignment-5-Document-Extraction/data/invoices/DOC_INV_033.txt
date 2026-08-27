@@ -1,0 +1,9 @@
+[HANDWRITTEN BILL OF SALE / INVOICE]
+From: NextGen Semiconductor Ltd (Signed: J. Smith)
+Bill Ref # INV-10033
+Billed on: 2026-02-02
+Currency code: EUR
+Total line entries counted: 6
+Tax: 37.80
+Grand Total: 496.03
+[Notes in margin: paid by company check #4401]

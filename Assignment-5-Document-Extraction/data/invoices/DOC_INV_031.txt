@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Atlas Packaging & Materials
+lnvoice No : INV~10031
+Date (YYYY-MM-DD): 2026-08-04
+Currencv : GBP
+Items Count: 4
+Tax Amt: 93.01
+TOTAL DUE: $1220.44 (inclusive)
+*faded watermark across bottom*

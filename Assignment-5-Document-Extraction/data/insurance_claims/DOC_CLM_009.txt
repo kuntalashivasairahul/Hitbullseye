@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1049
+Policyholder Number: POL-712554
+Patient Full Name: James O'Connor
+Treating Facility: Johns Hopkins Community Hospital
+Admission Date: 2026-03-02
+Primary Diagnosis Code (ICD-10): E11.9
+Total Claimed Charges: $14431.29
+Authorization Signature on File.
+====================================================

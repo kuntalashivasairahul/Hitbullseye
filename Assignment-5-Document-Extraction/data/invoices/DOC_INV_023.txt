@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Apex Cloud Technologies Inc.
+Invoice Number: INV-10023
+Date: 2026-05-14
+Currency: GBP
+----------------------------------------------------
+Line Items Count: 3 items billed
+Subtotal: 2123.70 GBP
+Tax Amount (8.25%): 175.21 GBP
+Total Amount Due: 2298.91 GBP
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

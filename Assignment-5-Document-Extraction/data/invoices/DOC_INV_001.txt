@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Vanguard Chemical Solutions
+Invoice Number: INV-10001
+Date: 2026-02-01
+Currency: EUR
+----------------------------------------------------
+Line Items Count: 5 items billed
+Subtotal: 1215.28 EUR
+Tax Amount (8.25%): 100.26 EUR
+Total Amount Due: 1315.54 EUR
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

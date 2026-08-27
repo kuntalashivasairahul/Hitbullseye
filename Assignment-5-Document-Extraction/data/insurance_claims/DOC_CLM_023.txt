@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1063
+P0licy No: POL-824586
+Patient..: Emily Rodriguez
+Hospital.: Johns Hopkins Community Hospital
+Admitted : 2026-01-27
+ICD-10 Code: R05
+Claim Amt: 5853.63
+*streaks of carbon toner across footer*

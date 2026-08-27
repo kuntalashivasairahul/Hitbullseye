@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Acme Industrial Supply LLC
+Invoice Number: INV-10003
+Date: 2026-02-07
+Currency: USD
+----------------------------------------------------
+Line Items Count: 4 items billed
+Subtotal: 2348.30 USD
+Tax Amount (8.25%): 193.73 USD
+Total Amount Due: 2542.03 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

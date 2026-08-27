@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Omni Health Supplies
+Invoice Number: INV-10011
+Date: 2026-02-13
+Currency: GBP
+----------------------------------------------------
+Line Items Count: 5 items billed
+Subtotal: 2122.33 GBP
+Tax Amount (8.25%): 175.09 GBP
+Total Amount Due: 2297.42 GBP
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

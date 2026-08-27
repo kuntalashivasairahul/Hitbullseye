@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1057
+Policyholder Number: POL-741390
+Patient Full Name: Danielle Dubois
+Treating Facility: Johns Hopkins Community Hospital
+Admission Date: 2026-01-22
+Primary Diagnosis Code (ICD-10): K21.9
+Total Claimed Charges: $12348.01
+Authorization Signature on File.
+====================================================

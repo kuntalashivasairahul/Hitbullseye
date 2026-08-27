@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: NextGen Semiconductor Ltd
+Invoice Number: INV-10015
+Date: 2026-01-26
+Currency: USD
+----------------------------------------------------
+Line Items Count: 6 items billed
+Subtotal: 1895.07 USD
+Tax Amount (8.25%): 156.34 USD
+Total Amount Due: 2051.41 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

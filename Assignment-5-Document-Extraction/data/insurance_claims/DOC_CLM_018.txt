@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1058
+Policyholder Number: POL-795613
+Patient Full Name: Michael Chang
+Treating Facility: Presbyterian Health Clinic
+Admission Date: 2026-05-04
+Primary Diagnosis Code (ICD-10): R05
+Total Claimed Charges: $13400.83
+Authorization Signature on File.
+====================================================

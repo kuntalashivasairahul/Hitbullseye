@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1055
+Policyholder Number: POL-176819
+Patient Full Name: Priya Patel
+Treating Facility: Memorial Sloan Care Center
+Admission Date: 2026-05-05
+Primary Diagnosis Code (ICD-10): E11.9
+Total Claimed Charges: $14032.26
+Authorization Signature on File.
+====================================================

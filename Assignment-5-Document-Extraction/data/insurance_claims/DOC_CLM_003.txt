@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1043
+Policyholder Number: POL-542374
+Patient Full Name: Emily Rodriguez
+Treating Facility: Cedars Sinai Regional Hospital
+Admission Date: 2026-08-08
+Primary Diagnosis Code (ICD-10): E11.9
+Total Claimed Charges: $13180.05
+Authorization Signature on File.
+====================================================

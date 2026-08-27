@@ -1,0 +1,8 @@
+-- IDENTITY CARD (MOBILE PHOTO / GLARE) --
+DocType: tax_id
+ID No: TAX-7838382
+Name: Robert T. Harrison
+DOB (YYYY-MM-DD): 1999-08-14
+Expires: 2027-04-27
+Country/Nat: Japan
+*flash reflection obscuring hologram strip*

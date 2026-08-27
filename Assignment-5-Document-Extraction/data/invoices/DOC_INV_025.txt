@@ -1,0 +1,9 @@
+== TAX INV0ICE (LOW-RES FAX SCAN) ==
+Vend0r..: Omni Health Supplies
+lnvoice No : INV~10025
+Date (YYYY-MM-DD): 2026-04-05
+Currencv : USD
+Items Count: 6
+Tax Amt: 286.02
+TOTAL DUE: $3752.94 (inclusive)
+*faded watermark across bottom*

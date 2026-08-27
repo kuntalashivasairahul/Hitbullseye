@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1053
+Policyholder Number: POL-350280
+Patient Full Name: Jessica Alpert
+Treating Facility: Cleveland Clinic Foundation
+Admission Date: 2026-03-22
+Primary Diagnosis Code (ICD-10): N39.0
+Total Claimed Charges: $9859.76
+Authorization Signature on File.
+====================================================

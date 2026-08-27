@@ -1,0 +1,9 @@
+-- HEALTH INS CLAIM (PHOTOCOPY) --
+Claim ID.: CLM-1062
+P0licy No: POL-877236
+Patient..: James O'Connor
+Hospital.: Johns Hopkins Community Hospital
+Admitted : 2026-07-18
+ICD-10 Code: E11.9
+Claim Amt: 640.21
+*streaks of carbon toner across footer*

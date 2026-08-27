@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1041
+Policyholder Number: POL-806073
+Patient Full Name: Danielle Dubois
+Treating Facility: Stanford Health Pavilion
+Admission Date: 2026-02-02
+Primary Diagnosis Code (ICD-10): F41.1
+Total Claimed Charges: $6338.01
+Authorization Signature on File.
+====================================================

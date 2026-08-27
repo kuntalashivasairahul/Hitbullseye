@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Horizon Media Works
+Invoice Number: INV-10002
+Date: 2026-02-22
+Currency: USD
+----------------------------------------------------
+Line Items Count: 2 items billed
+Subtotal: 2718.64 USD
+Tax Amount (8.25%): 224.29 USD
+Total Amount Due: 2942.93 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

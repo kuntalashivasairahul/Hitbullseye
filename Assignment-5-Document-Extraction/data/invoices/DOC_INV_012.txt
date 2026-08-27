@@ -1,0 +1,14 @@
+====================================================
+                  TAX INVOICE                       
+====================================================
+Vendor: Global Logistics Corp
+Invoice Number: INV-10012
+Date: 2026-06-12
+Currency: USD
+----------------------------------------------------
+Line Items Count: 4 items billed
+Subtotal: 3065.26 USD
+Tax Amount (8.25%): 252.88 USD
+Total Amount Due: 3318.14 USD
+Payment Terms: Net 30 Days. Remit to billing department.
+====================================================

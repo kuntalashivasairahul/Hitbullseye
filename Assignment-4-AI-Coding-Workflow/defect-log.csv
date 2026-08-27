@@ -1,0 +1,22 @@
+task_id,category,severity,description,fix_time_min
+TASK_01_AUTH,security,high,Naive string equality check instead of hmac.compare_digest,5.0
+TASK_01_AUTH,style,low,Missing type annotations for custom claims payload,5.0
+TASK_02_CRUD,edge_case,medium,Email regex rejected subdomains with hyphens and new TLDs,3.0
+TASK_02_CRUD,style,low,Inconsistent validation error dict key structure,3.0
+TASK_03_RATE_LIMITER,logic,high,Window boundary check off by 1ms allowing burst rate limit overflow,20.0
+TASK_03_RATE_LIMITER,performance,medium,Used Python list with O(N) pop(0) evictions instead of deque,15.0
+TASK_03_RATE_LIMITER,edge_case,medium,Zero-division error when window_seconds was fractional float near zero,10.0
+TASK_04_GRAPH_CYCLES,edge_case,high,Self-loops (A -> A) skipped in 2-color DFS implementation,20.0
+TASK_04_GRAPH_CYCLES,performance,medium,Deep recursive call stack hit default recursion limit on large sparse DAGs,15.0
+TASK_05_BILLING_SERVICE,logic,critical,"Idempotency key parameter accepted but never cached, allowing duplicate charges",20.0
+TASK_05_BILLING_SERVICE,edge_case,medium,Floating-point precision rounding errors on 3-decimal tax calculation,10.0
+TASK_06_ASYNC_FETCHER,performance,high,Unbounded asyncio.gather spawned thousands of sockets without Semaphore cap,18.0
+TASK_06_ASYNC_FETCHER,logic,medium,Retried 4xx client errors indefinitely instead of only 5xx server errors,14.0
+TASK_07_ORDER_FSM,edge_case,medium,Generated tests omitted negative verification for transitions from terminal states,10.0
+TASK_07_ORDER_FSM,edge_case,medium,"Audit history defensive copy not verified, allowing external list mutation",10.0
+TASK_08_THREAD_SAFE_CACHE,logic,high,"get_or_compute released lock before computation, causing thundering herd duplicate calls",25.0
+TASK_08_THREAD_SAFE_CACHE,edge_case,low,Expired keys not evicted lazily during size() queries,13.0
+TASK_09_OFF_BY_ONE,logic,high,"Prefix sum array indexing off-by-one on range [0, 0] returning 0 instead of arr[0]",18.0
+TASK_09_OFF_BY_ONE,edge_case,medium,Sliding window maximum failed when k == len(nums),12.0
+TASK_10_WEBHOOK_DISPATCHER,security,high,Used standard == operator for HMAC signature comparison instead of hmac.compare_digest,14.0
+TASK_10_WEBHOOK_DISPATCHER,edge_case,medium,Ignored negative timestamp drift from clock skew,10.0

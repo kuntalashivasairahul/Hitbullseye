@@ -1,0 +1,8 @@
+-- IDENTITY CARD (MOBILE PHOTO / GLARE) --
+DocType: tax_id
+ID No: TAX-1327691
+Name: Marcus Thorne
+DOB (YYYY-MM-DD): 1989-08-01
+Expires: 2032-05-25
+Country/Nat: Japan
+*flash reflection obscuring hologram strip*

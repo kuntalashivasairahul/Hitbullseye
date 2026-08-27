@@ -1,0 +1,11 @@
+HEALTH INSURANCE REIMBURSEMENT FORM
+====================================================
+Claim Reference ID: CLM-1046
+Policyholder Number: POL-161483
+Patient Full Name: Emily Rodriguez
+Treating Facility: Cleveland Clinic Foundation
+Admission Date: 2026-01-13
+Primary Diagnosis Code (ICD-10): N39.0
+Total Claimed Charges: $4345.44
+Authorization Signature on File.
+====================================================

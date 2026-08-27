@@ -1,0 +1,33 @@
+{
+  "threshold": 0.85,
+  "total_documents": 100,
+  "straight_through_processing": {
+    "count": 60,
+    "rate_pct": 60.0
+  },
+  "human_review_queue": {
+    "count": 30,
+    "rate_pct": 30.0
+  },
+  "rejection_queue": {
+    "count": 10,
+    "rate_pct": 10.0
+  },
+  "post_review_field_accuracy_pct": 93.4,
+  "economics": {
+    "total_documents": 100,
+    "stp_count": 60,
+    "human_review_count": 30,
+    "rejected_count": 10,
+    "stp_rate_pct": 60.0,
+    "human_review_rate_pct": 30.0,
+    "rejection_rate_pct": 10.0,
+    "baseline_manual_cost": 180.0,
+    "ai_extraction_cost": 1.5,
+    "human_review_cost": 18.0,
+    "total_pipeline_cost": 19.5,
+    "cost_per_document": 0.195,
+    "net_savings_dollars": 160.5,
+    "net_savings_pct": 89.2
+  }
+}

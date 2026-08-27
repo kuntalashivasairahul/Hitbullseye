@@ -1,0 +1,11 @@
+task_id,category,title,unassisted_time_min,generation_time_min,review_time_min,correction_time_min,total_assisted_time_min,acceptance_rate_pct,raw_time_saved_pct,net_productivity_pct,defect_count
+TASK_01_AUTH,boilerplate,JWT Authentication Token Handler,60.0,2.0,8.0,10.0,20.0,87.5%,96.7%,66.7%,2
+TASK_02_CRUD,boilerplate,REST API CRUD Serializer & Validator,45.0,2.0,6.0,6.0,14.0,90.9%,95.6%,68.9%,2
+TASK_03_RATE_LIMITER,algorithm,High-Throughput Rate Limiting Sliding Window,75.0,3.0,32.0,45.0,80.0,57.9%,96.0%,-6.7%,3
+TASK_04_GRAPH_CYCLES,algorithm,Directed Graph Cycle Detector & Topo Sort,80.0,3.0,30.0,35.0,68.0,65.0%,96.2%,15.0%,2
+TASK_05_BILLING_SERVICE,refactoring,Clean Billing Service & Idempotent Payment,90.0,4.0,25.0,30.0,59.0,75.0%,95.6%,34.4%,2
+TASK_06_ASYNC_FETCHER,refactoring,Concurrent Async Data Fetcher with Retries,85.0,3.0,25.0,32.0,60.0,73.9%,96.5%,29.4%,2
+TASK_07_ORDER_FSM,test_writing,Unit & Property Test Suite for Order FSM,70.0,3.0,15.0,20.0,38.0,76.9%,95.7%,45.7%,2
+TASK_08_THREAD_SAFE_CACHE,debugging,Thread-Safe In-Memory Cache with RLock,80.0,3.0,30.0,38.0,71.0,64.8%,96.2%,11.2%,2
+TASK_09_OFF_BY_ONE,debugging,Robust Subarray Prefix & Sliding Window Max,65.0,2.0,26.0,30.0,58.0,66.7%,96.9%,10.8%,2
+TASK_10_WEBHOOK_DISPATCHER,integration,Webhook HMAC Verifier & Replay Guard,75.0,3.0,22.0,24.0,49.0,76.0%,96.0%,34.7%,2

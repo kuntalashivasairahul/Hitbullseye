@@ -1,0 +1,5 @@
+strategy,total_runs,format_pass_rate,avg_content_score,score_1,score_2,score_3,score_4,score_5,avg_latency_ms,avg_tokens
+zero_shot,50,70.0%,2.84,14,3,12,19,2,76.3,83.1
+few_shot,50,100.0%,3.72,5,0,13,18,14,73.6,731.3
+chain_of_thought,50,100.0%,4.56,0,0,1,20,29,79.3,473.0
+structured_template,50,100.0%,4.34,0,0,5,23,22,78.9,417.0

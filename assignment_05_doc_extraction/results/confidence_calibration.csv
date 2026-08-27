@@ -1,0 +1,5 @@
+confidence_bin,document_count,avg_confidence,total_fields,exact_accuracy_pct,normalized_accuracy_pct
+0.90-1.00,39,0.968,258,92.2%,92.2%
+0.80-0.89,26,0.856,177,86.4%,86.4%
+0.70-0.79,25,0.741,173,88.4%,88.4%
+< 0.70,0,0.0,0,0.0%,0.0%

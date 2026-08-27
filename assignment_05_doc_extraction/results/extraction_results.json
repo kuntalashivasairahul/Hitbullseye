@@ -1,0 +1,6362 @@
+[
+  {
+    "doc_id": "DOC_001",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10001",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-02-01",
+      "total_amount": 1315.54,
+      "tax_amount": 100.26,
+      "currency": "EUR",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10001",
+        "extracted": "INV-10001",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Vanguard Chemical Solutions",
+        "extracted": "Vanguard Chemical Solutions",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-01",
+        "extracted": "2026-02-01",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1315.54,
+        "extracted": 1315.54,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 100.26,
+        "extracted": 100.26,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "EUR",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_002",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10002",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-02-22",
+      "total_amount": 2942.93,
+      "tax_amount": 224.29,
+      "currency": "USD",
+      "line_items_count": 2
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10002",
+        "extracted": "INV-10002",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Horizon Media Works",
+        "extracted": "Horizon Media Works",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-22",
+        "extracted": "2026-02-22",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2942.93,
+        "extracted": 2942.93,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 224.29,
+        "extracted": 224.29,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 2,
+        "extracted": 2,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_003",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10003",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-02-07",
+      "total_amount": 2542.03,
+      "tax_amount": 193.73,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10003",
+        "extracted": "INV-10003",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Acme Industrial Supply LLC",
+        "extracted": "Acme Industrial Supply LLC",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-07",
+        "extracted": "2026-02-07",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2542.03,
+        "extracted": 2542.03,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 193.73,
+        "extracted": 193.73,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_004",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10004",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-04-23",
+      "total_amount": 1200.41,
+      "tax_amount": 91.49,
+      "currency": "GBP",
+      "line_items_count": 7
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10004",
+        "extracted": "INV-10004",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Beacon Electronics Group",
+        "extracted": "Beacon Electronics Group",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-23",
+        "extracted": "2026-04-23",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1200.41,
+        "extracted": 1200.41,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 91.49,
+        "extracted": 91.49,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 7,
+        "extracted": 7,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_005",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10005",
+      "vendor_name": "Pinnacle Security Systems",
+      "invoice_date": "2026-01-25",
+      "total_amount": 3449.83,
+      "tax_amount": 262.92,
+      "currency": "GBP",
+      "line_items_count": 3
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10005",
+        "extracted": "INV-10005",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Pinnacle Security Systems",
+        "extracted": "Pinnacle Security Systems",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-01-25",
+        "extracted": "2026-01-25",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3449.83,
+        "extracted": 3449.83,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 262.92,
+        "extracted": 262.92,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 3,
+        "extracted": 3,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_006",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10006",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-03-07",
+      "total_amount": 643.67,
+      "tax_amount": 49.06,
+      "currency": "CAD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10006",
+        "extracted": "INV-10006",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Prime Office Solutions",
+        "extracted": "Prime Office Solutions",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-03-07",
+        "extracted": "2026-03-07",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 643.67,
+        "extracted": 643.67,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 49.06,
+        "extracted": 49.06,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_007",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10007",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-06-28",
+      "total_amount": 3005.25,
+      "tax_amount": 229.04,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10007",
+        "extracted": "INV-10007",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Apex Cloud Technologies Inc.",
+        "extracted": "Apex Cloud Technologies Inc.",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-06-28",
+        "extracted": "2026-06-28",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3005.25,
+        "extracted": 3005.25,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 229.04,
+        "extracted": 229.04,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_008",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10008",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-08-18",
+      "total_amount": 4744.65,
+      "tax_amount": 361.6,
+      "currency": "CAD",
+      "line_items_count": 2
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10008",
+        "extracted": "INV-10008",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Horizon Media Works",
+        "extracted": "Horizon Media Works",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-18",
+        "extracted": "2026-08-18",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4744.65,
+        "extracted": 4744.65,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 361.6,
+        "extracted": 361.6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 2,
+        "extracted": 2,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_009",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10009",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-05-27",
+      "total_amount": 2881.05,
+      "tax_amount": 219.57,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10009",
+        "extracted": "INV-10009",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Apex Cloud Technologies Inc.",
+        "extracted": "Apex Cloud Technologies Inc.",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-05-27",
+        "extracted": "2026-05-27",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2881.05,
+        "extracted": 2881.05,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 219.57,
+        "extracted": 219.57,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_010",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10010",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-04-25",
+      "total_amount": 4801.66,
+      "tax_amount": 365.95,
+      "currency": "EUR",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10010",
+        "extracted": "INV-10010",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Acme Industrial Supply LLC",
+        "extracted": "Acme Industrial Supply LLC",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-25",
+        "extracted": "2026-04-25",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4801.66,
+        "extracted": 4801.66,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 365.95,
+        "extracted": 365.95,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "EUR",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_011",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10011",
+      "vendor_name": "Omni Health Supplies",
+      "invoice_date": "2026-02-13",
+      "total_amount": 2297.42,
+      "tax_amount": 175.09,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10011",
+        "extracted": "INV-10011",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Omni Health Supplies",
+        "extracted": "Omni Health Supplies",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-13",
+        "extracted": "2026-02-13",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2297.42,
+        "extracted": 2297.42,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 175.09,
+        "extracted": 175.09,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_012",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10012",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-06-12",
+      "total_amount": 3318.14,
+      "tax_amount": 252.88,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10012",
+        "extracted": "INV-10012",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Global Logistics Corp",
+        "extracted": "Global Logistics Corp",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-06-12",
+        "extracted": "2026-06-12",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3318.14,
+        "extracted": 3318.14,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 252.88,
+        "extracted": 252.88,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_013",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10013",
+      "vendor_name": "Summit Enterprise Hardware",
+      "invoice_date": "2026-03-18",
+      "total_amount": 931.82,
+      "tax_amount": 71.02,
+      "currency": "CAD",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10013",
+        "extracted": "INV-10013",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Summit Enterprise Hardware",
+        "extracted": "Summit Enterprise Hardware",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-03-18",
+        "extracted": "2026-03-18",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 931.82,
+        "extracted": 931.82,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 71.02,
+        "extracted": 71.02,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_014",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10014",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-04-22",
+      "total_amount": 4131.26,
+      "tax_amount": 314.85,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10014",
+        "extracted": "INV-10014",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Prime Office Solutions",
+        "extracted": "Prime Office Solutions",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-22",
+        "extracted": "2026-04-22",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4131.26,
+        "extracted": 4131.26,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 314.85,
+        "extracted": 314.85,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_015",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10015",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-01-26",
+      "total_amount": 2051.41,
+      "tax_amount": 156.34,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10015",
+        "extracted": "INV-10015",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "NextGen Semiconductor Ltd",
+        "extracted": "NextGen Semiconductor Ltd",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-01-26",
+        "extracted": "2026-01-26",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2051.41,
+        "extracted": 2051.41,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 156.34,
+        "extracted": 156.34,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_016",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10016",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-06-07",
+      "total_amount": 2025.36,
+      "tax_amount": 154.36,
+      "currency": "CAD",
+      "line_items_count": 8
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10016",
+        "extracted": "INV-10016",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "NextGen Semiconductor Ltd",
+        "extracted": "NextGen Semiconductor Ltd",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-06-07",
+        "extracted": "2026-06-07",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2025.36,
+        "extracted": 2025.36,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 154.36,
+        "extracted": 154.36,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 8,
+        "extracted": 8,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_017",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10017",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-05-05",
+      "total_amount": 3670.43,
+      "tax_amount": 279.73,
+      "currency": "GBP",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10017",
+        "extracted": "INV-10017",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Global Logistics Corp",
+        "extracted": "Global Logistics Corp",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-05-05",
+        "extracted": "2026-05-05",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3670.43,
+        "extracted": 3670.43,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 279.73,
+        "extracted": 279.73,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_018",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10018",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-07-19",
+      "total_amount": 1866.97,
+      "tax_amount": 142.29,
+      "currency": "EUR",
+      "line_items_count": 7
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10018",
+        "extracted": "INV-10018",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Horizon Media Works",
+        "extracted": "Horizon Media Works",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-07-19",
+        "extracted": "2026-07-19",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1866.97,
+        "extracted": 1866.97,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 142.29,
+        "extracted": 142.29,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "EUR",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 7,
+        "extracted": 7,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_019",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10019",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-08-03",
+      "total_amount": 4217.2,
+      "tax_amount": 321.4,
+      "currency": "EUR",
+      "line_items_count": 1
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10019",
+        "extracted": "INV-10019",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Beacon Electronics Group",
+        "extracted": "Beacon Electronics Group",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-03",
+        "extracted": "2026-08-03",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4217.2,
+        "extracted": 4217.2,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 321.4,
+        "extracted": 321.4,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "EUR",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 1,
+        "extracted": 1,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_020",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10020",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-03-26",
+      "total_amount": 2970.79,
+      "tax_amount": 226.41,
+      "currency": "CAD",
+      "line_items_count": 7
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10020",
+        "extracted": "INV-10020",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Vanguard Chemical Solutions",
+        "extracted": "Vanguard Chemical Solutions",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-03-26",
+        "extracted": "2026-03-26",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2970.79,
+        "extracted": 2970.79,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 226.41,
+        "extracted": 226.41,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 7,
+        "extracted": 7,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_021",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10021",
+      "vendor_name": "Quantum Data Systems",
+      "invoice_date": "2026-08-17",
+      "total_amount": 4735.06,
+      "tax_amount": 360.87,
+      "currency": "USD",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10021",
+        "extracted": "INV-10021",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Quantum Data Systems",
+        "extracted": "Quantum Data Systems",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-17",
+        "extracted": "2026-08-17",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4735.06,
+        "extracted": 4735.06,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 360.87,
+        "extracted": 360.87,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_022",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10022",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-02-22",
+      "total_amount": 3781.61,
+      "tax_amount": 288.21,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10022",
+        "extracted": "INV-10022",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Vanguard Chemical Solutions",
+        "extracted": "Vanguard Chemical Solutions",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-22",
+        "extracted": "2026-02-22",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3781.61,
+        "extracted": 3781.61,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 288.21,
+        "extracted": 288.21,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_023",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10023",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-05-14",
+      "total_amount": 2298.91,
+      "tax_amount": 175.21,
+      "currency": "GBP",
+      "line_items_count": 3
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10023",
+        "extracted": "INV-10023",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Apex Cloud Technologies Inc.",
+        "extracted": "Apex Cloud Technologies Inc.",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-05-14",
+        "extracted": "2026-05-14",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2298.91,
+        "extracted": 2298.91,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 175.21,
+        "extracted": 175.21,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 3,
+        "extracted": 3,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_024",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.964,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "invoice_number": "INV-10024",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-03-17",
+      "total_amount": 4261.54,
+      "tax_amount": 324.78,
+      "currency": "GBP",
+      "line_items_count": 2
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10024",
+        "extracted": "INV-10024",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Beacon Electronics Group",
+        "extracted": "Beacon Electronics Group",
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-03-17",
+        "extracted": "2026-03-17",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4261.54,
+        "extracted": 4261.54,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 324.78,
+        "extracted": 324.78,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 2,
+        "extracted": 2,
+        "confidence": 0.96,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_025",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Omni Health Supplies",
+      "invoice_date": "2026-04-05",
+      "total_amount": 3752.94,
+      "tax_amount": 286.02,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10025",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Omni Health Supplies",
+        "extracted": "Omni Health Supplies",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-05",
+        "extracted": "2026-04-05",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3752.94,
+        "extracted": 3752.94,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 286.02,
+        "extracted": 286.02,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_026",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Summit Enterprise Hardware",
+      "invoice_date": "2026-06-16",
+      "total_amount": 689.14,
+      "tax_amount": 52.52,
+      "currency": "GBP",
+      "line_items_count": 1
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10026",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Summit Enterprise Hardware",
+        "extracted": "Summit Enterprise Hardware",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-06-16",
+        "extracted": "2026-06-16",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 689.14,
+        "extracted": 689.14,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 52.52,
+        "extracted": 52.52,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 1,
+        "extracted": 1,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_027",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Sterling Automotive Parts",
+      "invoice_date": "2026-05-08",
+      "total_amount": 1296.61,
+      "tax_amount": 98.82,
+      "currency": "USD",
+      "line_items_count": 1
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10027",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Sterling Automotive Parts",
+        "extracted": "Sterling Automotive Parts",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-05-08",
+        "extracted": "2026-05-08",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1296.61,
+        "extracted": 1296.61,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 98.82,
+        "extracted": 98.82,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 1,
+        "extracted": 1,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_028",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-08-27",
+      "total_amount": 4767.58,
+      "tax_amount": 363.35,
+      "currency": "EUR",
+      "line_items_count": 2
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10028",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Apex Cloud Technologies Inc.",
+        "extracted": "Apex Cloud Technologies Inc.",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-27",
+        "extracted": "2026-08-27",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 4767.58,
+        "extracted": 4767.58,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 363.35,
+        "extracted": 363.35,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "EUR",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 2,
+        "extracted": 2,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_029",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-08-18",
+      "total_amount": 1410.5,
+      "tax_amount": 107.5,
+      "currency": "CAD",
+      "line_items_count": 3
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10029",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Global Logistics Corp",
+        "extracted": "Global Logistics Corp",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-18",
+        "extracted": "2026-08-18",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1410.5,
+        "extracted": 1410.5,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 107.5,
+        "extracted": 107.5,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "CAD",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 3,
+        "extracted": 3,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_030",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-04-23",
+      "total_amount": 2041.18,
+      "tax_amount": 155.56,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10030",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "NextGen Semiconductor Ltd",
+        "extracted": "NextGen Semiconductor Ltd",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-23",
+        "extracted": "2026-04-23",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2041.18,
+        "extracted": 2041.18,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 155.56,
+        "extracted": 155.56,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 5,
+        "extracted": 5,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_031",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Atlas Packaging & Materials",
+      "invoice_date": "2026-08-04",
+      "total_amount": 1220.44,
+      "tax_amount": 93.01,
+      "currency": "GBP",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10031",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Atlas Packaging & Materials",
+        "extracted": "Atlas Packaging & Materials",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-04",
+        "extracted": "2026-08-04",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1220.44,
+        "extracted": 1220.44,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 93.01,
+        "extracted": 93.01,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "GBP",
+        "extracted": "GBP",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_032",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.744,
+    "schema_valid": false,
+    "schema_errors": [
+      "Field 'invoice_number' value '' does not match pattern '^[A-Z0-9\\-#]{3,30}$'."
+    ],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-04-19",
+      "total_amount": 196.24,
+      "tax_amount": 14.96,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10032",
+        "extracted": "",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "vendor_name": {
+        "expected": "Acme Industrial Supply LLC",
+        "extracted": "Acme Industrial Supply LLC",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-04-19",
+        "extracted": "2026-04-19",
+        "confidence": 0.85,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 196.24,
+        "extracted": 196.24,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 14.96,
+        "extracted": 14.96,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "USD",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "line_items_count": {
+        "expected": 4,
+        "extracted": 4,
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_033",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.737,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "INV-10033",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-02-02",
+      "total_amount": 496.03,
+      "tax_amount": 37.8,
+      "currency": "COD",
+      "line_items_count": 6
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10033",
+        "extracted": "INV-10033",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "NextGen Semiconductor Ltd",
+        "extracted": "NextGen Semiconductor Ltd",
+        "confidence": 0.69,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-02-02",
+        "extracted": "2026-02-02",
+        "confidence": 0.76,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 496.03,
+        "extracted": 496.03,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 37.8,
+        "extracted": 37.8,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "EUR",
+        "extracted": "COD",
+        "confidence": 0.75,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "line_items_count": {
+        "expected": 6,
+        "extracted": 6,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_034",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.737,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "INV-10034",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-08-07",
+      "total_amount": 3568.55,
+      "tax_amount": 271.97,
+      "currency": "COD",
+      "line_items_count": 3
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10034",
+        "extracted": "INV-10034",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Prime Office Solutions",
+        "extracted": "Prime Office Solutions",
+        "confidence": 0.69,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-07",
+        "extracted": "2026-08-07",
+        "confidence": 0.76,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 3568.55,
+        "extracted": 3568.55,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 271.97,
+        "extracted": 271.97,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "CAD",
+        "extracted": "COD",
+        "confidence": 0.75,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "line_items_count": {
+        "expected": 3,
+        "extracted": 3,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_035",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.737,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "INV-10035",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-08-26",
+      "total_amount": 1058.99,
+      "tax_amount": 80.71,
+      "currency": "COD",
+      "line_items_count": 7
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10035",
+        "extracted": "INV-10035",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "NextGen Semiconductor Ltd",
+        "extracted": "NextGen Semiconductor Ltd",
+        "confidence": 0.69,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-08-26",
+        "extracted": "2026-08-26",
+        "confidence": 0.76,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 1058.99,
+        "extracted": 1058.99,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 80.71,
+        "extracted": 80.71,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "COD",
+        "confidence": 0.75,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "line_items_count": {
+        "expected": 7,
+        "extracted": 7,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_036",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.737,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "invoice_number": "INV-10036",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-07-12",
+      "total_amount": 2098.2,
+      "tax_amount": 159.91,
+      "currency": "COD",
+      "line_items_count": 7
+    },
+    "field_comparisons": {
+      "invoice_number": {
+        "expected": "INV-10036",
+        "extracted": "INV-10036",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "vendor_name": {
+        "expected": "Vanguard Chemical Solutions",
+        "extracted": "Vanguard Chemical Solutions",
+        "confidence": 0.69,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "invoice_date": {
+        "expected": "2026-07-12",
+        "extracted": "2026-07-12",
+        "confidence": 0.76,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "total_amount": {
+        "expected": 2098.2,
+        "extracted": 2098.2,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "tax_amount": {
+        "expected": 159.91,
+        "extracted": 159.91,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "currency": {
+        "expected": "USD",
+        "extracted": "COD",
+        "confidence": 0.75,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "line_items_count": {
+        "expected": 7,
+        "extracted": 7,
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_037",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_038",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_039",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_040",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_041",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1041",
+      "policy_number": "POL-806073",
+      "patient_name": "Danielle Dubois",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-02-02",
+      "claim_amount": 6338.01,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1041",
+        "extracted": "CLM-1041",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-806073",
+        "extracted": "POL-806073",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Danielle Dubois",
+        "extracted": "Danielle Dubois",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Stanford Health Pavilion",
+        "extracted": "Stanford Health Pavilion",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-02-02",
+        "extracted": "2026-02-02",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 6338.01,
+        "extracted": 6338.01,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "F41.1",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_042",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1042",
+      "policy_number": "POL-939482",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-04-07",
+      "claim_amount": 8276.14,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1042",
+        "extracted": "CLM-1042",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-939482",
+        "extracted": "POL-939482",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Michael Chang",
+        "extracted": "Michael Chang",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Memorial Sloan Care Center",
+        "extracted": "Memorial Sloan Care Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-04-07",
+        "extracted": "2026-04-07",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 8276.14,
+        "extracted": 8276.14,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "I10",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_043",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1043",
+      "policy_number": "POL-542374",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-08-08",
+      "claim_amount": 13180.05,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1043",
+        "extracted": "CLM-1043",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-542374",
+        "extracted": "POL-542374",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cedars Sinai Regional Hospital",
+        "extracted": "Cedars Sinai Regional Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-08-08",
+        "extracted": "2026-08-08",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 13180.05,
+        "extracted": 13180.05,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_044",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1044",
+      "policy_number": "POL-564656",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-01-21",
+      "claim_amount": 14989.6,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1044",
+        "extracted": "CLM-1044",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-564656",
+        "extracted": "POL-564656",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Priya Patel",
+        "extracted": "Priya Patel",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Saint Jude Medical Center",
+        "extracted": "Saint Jude Medical Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-21",
+        "extracted": "2026-01-21",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14989.6,
+        "extracted": 14989.6,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "M54.5",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_045",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1045",
+      "policy_number": "POL-197793",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-07-16",
+      "claim_amount": 7479.7,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1045",
+        "extracted": "CLM-1045",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-197793",
+        "extracted": "POL-197793",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Presbyterian Health Clinic",
+        "extracted": "Presbyterian Health Clinic",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-07-16",
+        "extracted": "2026-07-16",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 7479.7,
+        "extracted": 7479.7,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "S83.511A",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_046",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1046",
+      "policy_number": "POL-161483",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Cleveland Clinic Foundation",
+      "admission_date": "2026-01-13",
+      "claim_amount": 4345.44,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1046",
+        "extracted": "CLM-1046",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-161483",
+        "extracted": "POL-161483",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cleveland Clinic Foundation",
+        "extracted": "Cleveland Clinic Foundation",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-13",
+        "extracted": "2026-01-13",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 4345.44,
+        "extracted": 4345.44,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "N39.0",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_047",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1047",
+      "policy_number": "POL-399105",
+      "patient_name": "Amanda L. Vance",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-08-05",
+      "claim_amount": 3253.52,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1047",
+        "extracted": "CLM-1047",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-399105",
+        "extracted": "POL-399105",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Amanda L. Vance",
+        "extracted": "Amanda L. Vance",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Vanderbilt University Medical",
+        "extracted": "Vanderbilt University Medical",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-08-05",
+        "extracted": "2026-08-05",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 3253.52,
+        "extracted": 3253.52,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "J45.909",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_048",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1048",
+      "policy_number": "POL-161324",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-01-24",
+      "claim_amount": 5047.27,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1048",
+        "extracted": "CLM-1048",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-161324",
+        "extracted": "POL-161324",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Vanderbilt University Medical",
+        "extracted": "Vanderbilt University Medical",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-24",
+        "extracted": "2026-01-24",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 5047.27,
+        "extracted": 5047.27,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "M54.5",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_049",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1049",
+      "policy_number": "POL-712554",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-03-02",
+      "claim_amount": 14431.29,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1049",
+        "extracted": "CLM-1049",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-712554",
+        "extracted": "POL-712554",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Johns Hopkins Community Hospital",
+        "extracted": "Johns Hopkins Community Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-03-02",
+        "extracted": "2026-03-02",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14431.29,
+        "extracted": 14431.29,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_050",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1050",
+      "policy_number": "POL-992697",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-02-22",
+      "claim_amount": 12996.38,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1050",
+        "extracted": "CLM-1050",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-992697",
+        "extracted": "POL-992697",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Saint Jude Medical Center",
+        "extracted": "Saint Jude Medical Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-02-22",
+        "extracted": "2026-02-22",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 12996.38,
+        "extracted": 12996.38,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "S83.511A",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_051",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1051",
+      "policy_number": "POL-225710",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-01-20",
+      "claim_amount": 1688.76,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1051",
+        "extracted": "CLM-1051",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-225710",
+        "extracted": "POL-225710",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Memorial Sloan Care Center",
+        "extracted": "Memorial Sloan Care Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-20",
+        "extracted": "2026-01-20",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 1688.76,
+        "extracted": 1688.76,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "Z00.00",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_052",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1052",
+      "policy_number": "POL-692683",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-05-07",
+      "claim_amount": 10211.03,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1052",
+        "extracted": "CLM-1052",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-692683",
+        "extracted": "POL-692683",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Priya Patel",
+        "extracted": "Priya Patel",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Northwestern Medical Center",
+        "extracted": "Northwestern Medical Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-05-07",
+        "extracted": "2026-05-07",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 10211.03,
+        "extracted": 10211.03,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "F41.1",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_053",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1053",
+      "policy_number": "POL-350280",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Cleveland Clinic Foundation",
+      "admission_date": "2026-03-22",
+      "claim_amount": 9859.76,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1053",
+        "extracted": "CLM-1053",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-350280",
+        "extracted": "POL-350280",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Jessica Alpert",
+        "extracted": "Jessica Alpert",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cleveland Clinic Foundation",
+        "extracted": "Cleveland Clinic Foundation",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-03-22",
+        "extracted": "2026-03-22",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 9859.76,
+        "extracted": 9859.76,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "N39.0",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_054",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1054",
+      "policy_number": "POL-431535",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Mercy General Hospital",
+      "admission_date": "2026-08-20",
+      "claim_amount": 14977.59,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1054",
+        "extracted": "CLM-1054",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-431535",
+        "extracted": "POL-431535",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Michael Chang",
+        "extracted": "Michael Chang",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Mercy General Hospital",
+        "extracted": "Mercy General Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-08-20",
+        "extracted": "2026-08-20",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14977.59,
+        "extracted": 14977.59,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_055",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1055",
+      "policy_number": "POL-176819",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-05-05",
+      "claim_amount": 14032.26,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1055",
+        "extracted": "CLM-1055",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-176819",
+        "extracted": "POL-176819",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Priya Patel",
+        "extracted": "Priya Patel",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Memorial Sloan Care Center",
+        "extracted": "Memorial Sloan Care Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-05-05",
+        "extracted": "2026-05-05",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14032.26,
+        "extracted": 14032.26,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_056",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1056",
+      "policy_number": "POL-356150",
+      "patient_name": "Robert T. Harrison",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-03-15",
+      "claim_amount": 12589.3,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1056",
+        "extracted": "CLM-1056",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-356150",
+        "extracted": "POL-356150",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Robert T. Harrison",
+        "extracted": "Robert T. Harrison",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cedars Sinai Regional Hospital",
+        "extracted": "Cedars Sinai Regional Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-03-15",
+        "extracted": "2026-03-15",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 12589.3,
+        "extracted": 12589.3,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "K21.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_057",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1057",
+      "policy_number": "POL-741390",
+      "patient_name": "Danielle Dubois",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-01-22",
+      "claim_amount": 12348.01,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1057",
+        "extracted": "CLM-1057",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-741390",
+        "extracted": "POL-741390",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Danielle Dubois",
+        "extracted": "Danielle Dubois",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Johns Hopkins Community Hospital",
+        "extracted": "Johns Hopkins Community Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-22",
+        "extracted": "2026-01-22",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 12348.01,
+        "extracted": 12348.01,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "K21.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_058",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1058",
+      "policy_number": "POL-795613",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-05-04",
+      "claim_amount": 13400.83,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1058",
+        "extracted": "CLM-1058",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-795613",
+        "extracted": "POL-795613",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Michael Chang",
+        "extracted": "Michael Chang",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Presbyterian Health Clinic",
+        "extracted": "Presbyterian Health Clinic",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-05-04",
+        "extracted": "2026-05-04",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 13400.83,
+        "extracted": 13400.83,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "R05",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_059",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1059",
+      "policy_number": "POL-262998",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-04-23",
+      "claim_amount": 5471.76,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1059",
+        "extracted": "CLM-1059",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-262998",
+        "extracted": "POL-262998",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Jessica Alpert",
+        "extracted": "Jessica Alpert",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cedars Sinai Regional Hospital",
+        "extracted": "Cedars Sinai Regional Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-04-23",
+        "extracted": "2026-04-23",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 5471.76,
+        "extracted": 5471.76,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "K21.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_060",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1060",
+      "policy_number": "POL-629959",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-01-03",
+      "claim_amount": 9697.12,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1060",
+        "extracted": "CLM-1060",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-629959",
+        "extracted": "POL-629959",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Cedars Sinai Regional Hospital",
+        "extracted": "Cedars Sinai Regional Hospital",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-03",
+        "extracted": "2026-01-03",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 9697.12,
+        "extracted": 9697.12,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "K21.9",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_061",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.863,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "claim_id": "CLM-1061",
+      "policy_number": "POL-146228",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-03-21",
+      "claim_amount": 14707.07,
+      "diagnosis_code": "Z00.00"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1061",
+        "extracted": "CLM-1061",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-146228",
+        "extracted": "POL-146228",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Sarah Jenkins",
+        "extracted": "Sarah Jenkins",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Northwestern Medical Center",
+        "extracted": "Northwestern Medical Center",
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-03-21",
+        "extracted": "2026-03-21",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14707.07,
+        "extracted": 14707.07,
+        "confidence": 0.95,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "I10",
+        "extracted": "Z00.00",
+        "confidence": 0.3,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_062",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-877236",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-07-18",
+      "claim_amount": 640.21,
+      "diagnosis_code": "E11.9"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1062",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-877236",
+        "extracted": "POL-877236",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Johns Hopkins Community Hospital",
+        "extracted": "Johns Hopkins Community Hospital",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-07-18",
+        "extracted": "2026-07-18",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 640.21,
+        "extracted": 640.21,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "E11.9",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_063",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-824586",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-01-27",
+      "claim_amount": 5853.63,
+      "diagnosis_code": "R05"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1063",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-824586",
+        "extracted": "POL-824586",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Johns Hopkins Community Hospital",
+        "extracted": "Johns Hopkins Community Hospital",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-27",
+        "extracted": "2026-01-27",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 5853.63,
+        "extracted": 5853.63,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "R05",
+        "extracted": "R05",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_064",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-255287",
+      "patient_name": "Amanda L. Vance",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-01-10",
+      "claim_amount": 5787.45,
+      "diagnosis_code": "M54.5"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1064",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-255287",
+        "extracted": "POL-255287",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Amanda L. Vance",
+        "extracted": "Amanda L. Vance",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Presbyterian Health Clinic",
+        "extracted": "Presbyterian Health Clinic",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-01-10",
+        "extracted": "2026-01-10",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 5787.45,
+        "extracted": 5787.45,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "M54.5",
+        "extracted": "M54.5",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_065",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-475190",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-04-22",
+      "claim_amount": 1990.51,
+      "diagnosis_code": "R05"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1065",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-475190",
+        "extracted": "POL-475190",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Stanford Health Pavilion",
+        "extracted": "Stanford Health Pavilion",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-04-22",
+        "extracted": "2026-04-22",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 1990.51,
+        "extracted": 1990.51,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "R05",
+        "extracted": "R05",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_066",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-526117",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-03-08",
+      "claim_amount": 13036.78,
+      "diagnosis_code": "I10"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1066",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-526117",
+        "extracted": "POL-526117",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Vanderbilt University Medical",
+        "extracted": "Vanderbilt University Medical",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-03-08",
+        "extracted": "2026-03-08",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 13036.78,
+        "extracted": 13036.78,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "I10",
+        "extracted": "I10",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_067",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-532322",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-06-26",
+      "claim_amount": 13996.83,
+      "diagnosis_code": "J45.909"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1067",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-532322",
+        "extracted": "POL-532322",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Sarah Jenkins",
+        "extracted": "Sarah Jenkins",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Presbyterian Health Clinic",
+        "extracted": "Presbyterian Health Clinic",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-06-26",
+        "extracted": "2026-06-26",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 13996.83,
+        "extracted": 13996.83,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "J45.909",
+        "extracted": "J45.909",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_068",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.751,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-0000",
+      "policy_number": "POL-379766",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-02-13",
+      "claim_amount": 13146.42,
+      "diagnosis_code": "N39.0"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1068",
+        "extracted": "CLM-0000",
+        "confidence": 0.2,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "policy_number": {
+        "expected": "POL-379766",
+        "extracted": "POL-379766",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Vanderbilt University Medical",
+        "extracted": "Vanderbilt University Medical",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-02-13",
+        "extracted": "2026-02-13",
+        "confidence": 0.86,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 13146.42,
+        "extracted": 13146.42,
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "N39.0",
+        "extracted": "N39.0",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_069",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.726,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-1069",
+      "policy_number": "POL-333238",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Mayo Regional Care Facility",
+      "admission_date": "2026-06-10",
+      "claim_amount": 12397.78,
+      "diagnosis_code": "J45.909"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1069",
+        "extracted": "CLM-1069",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-333238",
+        "extracted": "POL-333238",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Mayo Regional Care Facility",
+        "extracted": "Mayo Regional Care Facility",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-06-10",
+        "extracted": "2026-06-10",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 12397.78,
+        "extracted": 12397.78,
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "J45.909",
+        "extracted": "J45.909",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_070",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.726,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-1070",
+      "policy_number": "POL-333752",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-04-13",
+      "claim_amount": 5259.8,
+      "diagnosis_code": "E11.9"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1070",
+        "extracted": "CLM-1070",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-333752",
+        "extracted": "POL-333752",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Sarah Jenkins",
+        "extracted": "Sarah Jenkins",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Stanford Health Pavilion",
+        "extracted": "Stanford Health Pavilion",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-04-13",
+        "extracted": "2026-04-13",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 5259.8,
+        "extracted": 5259.8,
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "E11.9",
+        "extracted": "E11.9",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_071",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.726,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-1071",
+      "policy_number": "POL-910891",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-07-22",
+      "claim_amount": 14726.67,
+      "diagnosis_code": "R05"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1071",
+        "extracted": "CLM-1071",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-910891",
+        "extracted": "POL-910891",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Jessica Alpert",
+        "extracted": "Jessica Alpert",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Northwestern Medical Center",
+        "extracted": "Northwestern Medical Center",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-07-22",
+        "extracted": "2026-07-22",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 14726.67,
+        "extracted": 14726.67,
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "R05",
+        "extracted": "R05",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_072",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.726,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "claim_id": "CLM-1072",
+      "policy_number": "POL-447235",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-05-06",
+      "claim_amount": 8918.55,
+      "diagnosis_code": "K21.9"
+    },
+    "field_comparisons": {
+      "claim_id": {
+        "expected": "CLM-1072",
+        "extracted": "CLM-1072",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "policy_number": {
+        "expected": "POL-447235",
+        "extracted": "POL-447235",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "patient_name": {
+        "expected": "Sarah Jenkins",
+        "extracted": "Sarah Jenkins",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "hospital_name": {
+        "expected": "Saint Jude Medical Center",
+        "extracted": "Saint Jude Medical Center",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "admission_date": {
+        "expected": "2026-05-06",
+        "extracted": "2026-05-06",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "claim_amount": {
+        "expected": 8918.55,
+        "extracted": 8918.55,
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "diagnosis_code": {
+        "expected": "K21.9",
+        "extracted": "K21.9",
+        "confidence": 0.72,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_073",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_074",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_075",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_076",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "passport",
+      "id_number": "PAS-2818692",
+      "full_name": "Marcus Thorne",
+      "dob": "1992-06-24",
+      "expiry_date": "2032-07-20",
+      "nationality": "Singapore\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "PAS-2818692",
+        "extracted": "PAS-2818692",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1992-06-24",
+        "extracted": "1992-06-24",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2032-07-20",
+        "extracted": "2032-07-20",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "passport",
+        "extracted": "passport",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Singapore",
+        "extracted": "Singapore\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_077",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "passport",
+      "id_number": "PAS-7462506",
+      "full_name": "Marcus Thorne",
+      "dob": "1977-05-02",
+      "expiry_date": "2033-01-17",
+      "nationality": "Singapore\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "PAS-7462506",
+        "extracted": "PAS-7462506",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1977-05-02",
+        "extracted": "1977-05-02",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2033-01-17",
+        "extracted": "2033-01-17",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "passport",
+        "extracted": "passport",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Singapore",
+        "extracted": "Singapore\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_078",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "NAT-7110622",
+      "full_name": "Amanda L. Vance",
+      "dob": "1969-11-11",
+      "expiry_date": "2032-11-28",
+      "nationality": "Canada\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "NAT-7110622",
+        "extracted": "NAT-7110622",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Amanda L. Vance",
+        "extracted": "Amanda L. Vance",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1969-11-11",
+        "extracted": "1969-11-11",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2032-11-28",
+        "extracted": "2032-11-28",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "national_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Canada",
+        "extracted": "Canada\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_079",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "drivers_license",
+      "id_number": "DRI-9508103",
+      "full_name": "Jessica Alpert",
+      "dob": "1991-06-13",
+      "expiry_date": "2031-09-05",
+      "nationality": "Germany\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "DRI-9508103",
+        "extracted": "DRI-9508103",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Jessica Alpert",
+        "extracted": "Jessica Alpert",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1991-06-13",
+        "extracted": "1991-06-13",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2031-09-05",
+        "extracted": "2031-09-05",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "drivers_license",
+        "extracted": "drivers_license",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Germany",
+        "extracted": "Germany\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_080",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-7361002",
+      "full_name": "Danielle Dubois",
+      "dob": "1976-10-19",
+      "expiry_date": "2031-07-18",
+      "nationality": "United States\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-7361002",
+        "extracted": "TAX-7361002",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Danielle Dubois",
+        "extracted": "Danielle Dubois",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1976-10-19",
+        "extracted": "1976-10-19",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2031-07-18",
+        "extracted": "2031-07-18",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "United States",
+        "extracted": "United States\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_081",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "drivers_license",
+      "id_number": "DRI-5813613",
+      "full_name": "David K. Miller",
+      "dob": "1992-10-20",
+      "expiry_date": "2032-08-15",
+      "nationality": "India\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "DRI-5813613",
+        "extracted": "DRI-5813613",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1992-10-20",
+        "extracted": "1992-10-20",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2032-08-15",
+        "extracted": "2032-08-15",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "drivers_license",
+        "extracted": "drivers_license",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "India",
+        "extracted": "India\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_082",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "NAT-9576076",
+      "full_name": "James O'Connor",
+      "dob": "1975-11-03",
+      "expiry_date": "2031-09-22",
+      "nationality": "Netherlands\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "NAT-9576076",
+        "extracted": "NAT-9576076",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1975-11-03",
+        "extracted": "1975-11-03",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2031-09-22",
+        "extracted": "2031-09-22",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "national_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Netherlands",
+        "extracted": "Netherlands\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_083",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "drivers_license",
+      "id_number": "DRI-2566777",
+      "full_name": "David K. Miller",
+      "dob": "1984-04-26",
+      "expiry_date": "2030-03-01",
+      "nationality": "United States\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "DRI-2566777",
+        "extracted": "DRI-2566777",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1984-04-26",
+        "extracted": "1984-04-26",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2030-03-01",
+        "extracted": "2030-03-01",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "drivers_license",
+        "extracted": "drivers_license",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "United States",
+        "extracted": "United States\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_084",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "NAT-8971465",
+      "full_name": "Marcus Thorne",
+      "dob": "1969-08-14",
+      "expiry_date": "2030-12-23",
+      "nationality": "Japan\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "NAT-8971465",
+        "extracted": "NAT-8971465",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1969-08-14",
+        "extracted": "1969-08-14",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2030-12-23",
+        "extracted": "2030-12-23",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "national_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Japan",
+        "extracted": "Japan\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_085",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-7705062",
+      "full_name": "David K. Miller",
+      "dob": "1974-11-23",
+      "expiry_date": "2027-02-25",
+      "nationality": "Japan\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-7705062",
+        "extracted": "TAX-7705062",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1974-11-23",
+        "extracted": "1974-11-23",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2027-02-25",
+        "extracted": "2027-02-25",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Japan",
+        "extracted": "Japan\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_086",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "NAT-3950888",
+      "full_name": "Alexander Wright",
+      "dob": "1998-08-02",
+      "expiry_date": "2035-04-28",
+      "nationality": "Canada\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "NAT-3950888",
+        "extracted": "NAT-3950888",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Alexander Wright",
+        "extracted": "Alexander Wright",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1998-08-02",
+        "extracted": "1998-08-02",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2035-04-28",
+        "extracted": "2035-04-28",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "national_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Canada",
+        "extracted": "Canada\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_087",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-3237058",
+      "full_name": "James O'Connor",
+      "dob": "1998-09-20",
+      "expiry_date": "2032-08-20",
+      "nationality": "Singapore\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-3237058",
+        "extracted": "TAX-3237058",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1998-09-20",
+        "extracted": "1998-09-20",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2032-08-20",
+        "extracted": "2032-08-20",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Singapore",
+        "extracted": "Singapore\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_088",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-8481188",
+      "full_name": "Emily Rodriguez",
+      "dob": "1995-08-09",
+      "expiry_date": "2030-11-09",
+      "nationality": "Singapore\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-8481188",
+        "extracted": "TAX-8481188",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1995-08-09",
+        "extracted": "1995-08-09",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2030-11-09",
+        "extracted": "2030-11-09",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Singapore",
+        "extracted": "Singapore\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_089",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-5013879",
+      "full_name": "Jessica Alpert",
+      "dob": "1993-02-23",
+      "expiry_date": "2031-04-09",
+      "nationality": "France\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-5013879",
+        "extracted": "TAX-5013879",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Jessica Alpert",
+        "extracted": "Jessica Alpert",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1993-02-23",
+        "extracted": "1993-02-23",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2031-04-09",
+        "extracted": "2031-04-09",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.98,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "France",
+        "extracted": "France\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_090",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.975,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "STRAIGHT_THROUGH_PROCESSING",
+    "extracted_fields": {
+      "document_type": "drivers_license",
+      "id_number": "DRI-2351868",
+      "full_name": "Emily Rodriguez",
+      "dob": "1974-04-13",
+      "expiry_date": "2029-12-07",
+      "nationality": "Canada\nSecurity Microprint"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "DRI-2351868",
+        "extracted": "DRI-2351868",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Emily Rodriguez",
+        "extracted": "Emily Rodriguez",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1974-04-13",
+        "extracted": "1974-04-13",
+        "confidence": 0.99,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2029-12-07",
+        "extracted": "2029-12-07",
+        "confidence": 0.97,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "drivers_license",
+        "extracted": "drivers_license",
+        "confidence": 0.98,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Canada",
+        "extracted": "Canada\nSecurity Microprint",
+        "confidence": 0.97,
+        "exact_match": false,
+        "normalized_match": false
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_091",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.825,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-7838382",
+      "full_name": "Robert T. Harrison",
+      "dob": "1999-08-14",
+      "expiry_date": "2027-04-27",
+      "nationality": "Japan"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-7838382",
+        "extracted": "TAX-7838382",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Robert T. Harrison",
+        "extracted": "Robert T. Harrison",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1999-08-14",
+        "extracted": "1999-08-14",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2027-04-27",
+        "extracted": "2027-04-27",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.83,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Japan",
+        "extracted": "Japan",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_092",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.825,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-1327691",
+      "full_name": "Marcus Thorne",
+      "dob": "1989-08-01",
+      "expiry_date": "2032-05-25",
+      "nationality": "Japan"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-1327691",
+        "extracted": "TAX-1327691",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Marcus Thorne",
+        "extracted": "Marcus Thorne",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1989-08-01",
+        "extracted": "1989-08-01",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2032-05-25",
+        "extracted": "2032-05-25",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.83,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Japan",
+        "extracted": "Japan",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_093",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.825,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-4700025",
+      "full_name": "James O'Connor",
+      "dob": "1979-05-14",
+      "expiry_date": "2034-01-13",
+      "nationality": "France"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-4700025",
+        "extracted": "TAX-4700025",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1979-05-14",
+        "extracted": "1979-05-14",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2034-01-13",
+        "extracted": "2034-01-13",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.83,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "France",
+        "extracted": "France",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_094",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.825,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-3768991",
+      "full_name": "James O'Connor",
+      "dob": "1973-10-18",
+      "expiry_date": "2027-07-19",
+      "nationality": "Netherlands"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-3768991",
+        "extracted": "TAX-3768991",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1973-10-18",
+        "extracted": "1973-10-18",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2027-07-19",
+        "extracted": "2027-07-19",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.83,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Netherlands",
+        "extracted": "Netherlands",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_095",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.825,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "passport",
+      "id_number": "PAS-2408404",
+      "full_name": "Danielle Dubois",
+      "dob": "1992-03-28",
+      "expiry_date": "2034-03-02",
+      "nationality": "Australia"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "PAS-2408404",
+        "extracted": "PAS-2408404",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "Danielle Dubois",
+        "extracted": "Danielle Dubois",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1992-03-28",
+        "extracted": "1992-03-28",
+        "confidence": 0.84,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2034-03-02",
+        "extracted": "2034-03-02",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "passport",
+        "extracted": "passport",
+        "confidence": 0.83,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Australia",
+        "extracted": "Australia",
+        "confidence": 0.82,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_096",
+    "doc_type": "kyc_identity",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.735,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "national_id",
+      "id_number": "TAX-6492066",
+      "full_name": "David K. Miller",
+      "dob": "1994-06-11",
+      "expiry_date": "2033-05-25",
+      "nationality": "Japan"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "TAX-6492066",
+        "extracted": "TAX-6492066",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "David K. Miller",
+        "extracted": "David K. Miller",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1994-06-11",
+        "extracted": "1994-06-11",
+        "confidence": 0.75,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2033-05-25",
+        "extracted": "2033-05-25",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "tax_id",
+        "extracted": "national_id",
+        "confidence": 0.74,
+        "exact_match": false,
+        "normalized_match": false
+      },
+      "nationality": {
+        "expected": "Japan",
+        "extracted": "Japan",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_097",
+    "doc_type": "kyc_identity",
+    "quality_tier": "handwritten",
+    "status": "SUCCESS",
+    "rejection_reason": null,
+    "confidence_score": 0.735,
+    "schema_valid": true,
+    "schema_errors": [],
+    "routing_decision": "HUMAN_REVIEW_QUEUE",
+    "extracted_fields": {
+      "document_type": "drivers_license",
+      "id_number": "DRI-2374158",
+      "full_name": "James O'Connor",
+      "dob": "1966-12-18",
+      "expiry_date": "2027-06-08",
+      "nationality": "Canada"
+    },
+    "field_comparisons": {
+      "id_number": {
+        "expected": "DRI-2374158",
+        "extracted": "DRI-2374158",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "full_name": {
+        "expected": "James O'Connor",
+        "extracted": "James O'Connor",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "dob": {
+        "expected": "1966-12-18",
+        "extracted": "1966-12-18",
+        "confidence": 0.75,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "expiry_date": {
+        "expected": "2027-06-08",
+        "extracted": "2027-06-08",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "document_type": {
+        "expected": "drivers_license",
+        "extracted": "drivers_license",
+        "confidence": 0.74,
+        "exact_match": true,
+        "normalized_match": true
+      },
+      "nationality": {
+        "expected": "Canada",
+        "extracted": "Canada",
+        "confidence": 0.73,
+        "exact_match": true,
+        "normalized_match": true
+      }
+    }
+  },
+  {
+    "doc_id": "DOC_098",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_099",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  },
+  {
+    "doc_id": "DOC_100",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "status": "REJECTED",
+    "rejection_reason": "Document unreadable, severely degraded, or out-of-scope",
+    "confidence_score": 0.0,
+    "schema_valid": false,
+    "schema_errors": [],
+    "routing_decision": "REJECTION_QUEUE",
+    "extracted_fields": {},
+    "field_comparisons": {}
+  }
+]

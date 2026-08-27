@@ -1,0 +1,2497 @@
+{
+  "total_failures": 57,
+  "failure_rate": "28.5%",
+  "failures": [
+    {
+      "case_id": "CASE_002",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "What is your return policy for open-box electronics? I bought a wireless headset 12 days ago and the fit is uncomfortable.",
+      "expected_intent": "return_policy_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Confirm the 30-day return window for consumer electronics, mention packaging/accessories condition requirements, and specify how to start an RMA request.",
+      "latency_ms": 105.0,
+      "input_tokens": 45,
+      "output_tokens": 30,
+      "total_tokens": 75,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must confirm eligibility within the 30-day return window.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('confirm eligibility within the 30-day re...')"
+        },
+        {
+          "criterion": "Must list requirements for returned condition and accessories.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('list requirements for returned condition...')"
+        },
+        {
+          "criterion": "Must present the return process in sequential bullet points.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Confirm the 30-day return window for consumer electronics, mention packaging/accessories condition requirements, and specify how to start an RMA request."
+    },
+    {
+      "case_id": "CASE_004",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I want to add an extra layer of protection to my account. How do I enable two-factor authentication (2FA) on my profile?",
+      "expected_intent": "enable_two_factor_auth",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Provide clear step-by-step instructions to navigate to Account Settings > Security > Two-Factor Authentication, and list supported methods (authenticator app or SMS).",
+      "latency_ms": 95.0,
+      "input_tokens": 46,
+      "output_tokens": 33,
+      "total_tokens": 79,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must provide clear navigation path to Security Settings.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('provide clear navigation path to securit...')"
+        },
+        {
+          "criterion": "Must specify supported 2FA verification methods.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('specify supported 2fa verification metho...')"
+        },
+        {
+          "criterion": "Must advise user to save backup recovery codes securely.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Provide clear step-by-step instructions to navigate to Account Settings > Security > Two-Factor Authentication, and list supported methods (authenticator app or SMS)."
+    },
+    {
+      "case_id": "CASE_005",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "Could you please send me an official VAT invoice and payment receipt for order #ORD-77123? Our accounting department requires it for tax reimbursement.",
+      "expected_intent": "invoice_request",
+      "expected_format": "plain_text",
+      "response_text": "Regarding your inquiry: Explain how to download the official PDF invoice with tax identification breakdown directly from Account > Orders > Details, or offer to email it.",
+      "latency_ms": 70.0,
+      "input_tokens": 48,
+      "output_tokens": 36,
+      "total_tokens": 84,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must address VAT and tax receipt requirements for order #ORD-77123.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must direct customer to download the PDF invoice from order history.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('direct customer to download the pdf invo...')"
+        },
+        {
+          "criterion": "Must maintain professional business-to-consumer tone.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Explain how to download the official PDF invoice with tax identification breakdown directly from Account > Orders > Details, or offer to email it."
+    },
+    {
+      "case_id": "CASE_008",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I forgot my account password and requested a password reset link 15 minutes ago, but I haven't received any email in my inbox. What should I do?",
+      "expected_intent": "password_reset_troubleshooting",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Provide troubleshooting steps: checking spam/junk/promotions folders, verifying registered email address accuracy, and waiting for delivery rate limits before requesting a new link.",
+      "latency_ms": 95.0,
+      "input_tokens": 53,
+      "output_tokens": 33,
+      "total_tokens": 86,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 4,
+      "score_rationale": "Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must include spam and promotions folder verification step.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('include spam and promotions folder verif...')"
+        },
+        {
+          "criterion": "Must address email verification and rate-limit wait periods.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('address email verification and rate-limi...')"
+        },
+        {
+          "criterion": "Must present troubleshooting advice as sequential action steps.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('present troubleshooting advice as sequen...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Provide troubleshooting steps: checking spam/junk/promotions folders, verifying registered email address accuracy, and waiting for delivery rate limits before requesting a new link."
+    },
+    {
+      "case_id": "CASE_010",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "The delivery driver just dropped off my package for order #ORD-38190. The outer cardboard box is crushed and the ceramic mug inside is completely shattered. How do I get a replacement?",
+      "expected_intent": "damaged_goods_claim",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Express empathy, request photos of damaged packaging and shattered item, and explain the expedited replacement procedure without requiring customer to ship back hazardous broken glass.",
+      "latency_ms": 110.0,
+      "input_tokens": 58,
+      "output_tokens": 37,
+      "total_tokens": 95,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must request photo documentation of damaged packaging and shattered item.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('request photo documentation of damaged p...')"
+        },
+        {
+          "criterion": "Must confirm free replacement or refund without requiring return of broken shards.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('confirm free replacement...')"
+        },
+        {
+          "criterion": "Must reference order #ORD-38190.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Express empathy, request photos of damaged packaging and shattered item, and explain the expedited replacement procedure without requiring customer to ship back hazardous broken glass."
+    },
+    {
+      "case_id": "CASE_012",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "Where can I print the prepaid return shipping label for my approved RMA return #RMA-8172? I do not have a home printer.",
+      "expected_intent": "return_label_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Detail digital label retrieval from RMA portal, and provide alternatives for printerless customers such as carrier QR codes for drop-off at UPS/FedEx stores.",
+      "latency_ms": 50.0,
+      "input_tokens": 46,
+      "output_tokens": 34,
+      "total_tokens": 80,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 4,
+      "score_rationale": "Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must provide instructions for downloading prepaid label for #RMA-8172.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('provide instructions for downloading pre...')"
+        },
+        {
+          "criterion": "Must provide a printerless QR code drop-off alternative.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('provide a printerless qr code drop-off a...')"
+        },
+        {
+          "criterion": "Must list authorized carrier drop-off locations.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('list authorized carrier drop-off locatio...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Detail digital label retrieval from RMA portal, and provide alternatives for printerless customers such as carrier QR codes for drop-off at UPS/FedEx stores."
+    },
+    {
+      "case_id": "CASE_013",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I received a security alert saying someone logged into my account from IP address 198.51.100.22 in Frankfurt, Germany. I live in Ohio and did not authorize this.",
+      "expected_intent": "suspicious_login_alert",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Treat as high-priority security issue: instruct customer to terminate all active sessions, change password immediately, enable 2FA, and inspect order history for unauthorized charges.",
+      "latency_ms": 105.0,
+      "input_tokens": 53,
+      "output_tokens": 36,
+      "total_tokens": 89,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must emphasize urgent security steps (terminate sessions, change password).",
+          "passed": true,
+          "reason": "Addressed sub-clause ('emphasize urgent security steps (termina...')"
+        },
+        {
+          "criterion": "Must recommend reviewing recent order history for fraudulent activity.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('recommend reviewing recent order history...')"
+        },
+        {
+          "criterion": "Must provide direct contact link to fraud security operations.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Treat as high-priority security issue: instruct customer to terminate all active sessions, change password immediately, enable 2FA, and inspect order history for unauthorized charges."
+    },
+    {
+      "case_id": "CASE_014",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I placed order #ORD-12845 with standard shipping this morning, but I urgently need it for an anniversary this Friday. Can I pay extra to upgrade to Overnight Express?",
+      "expected_intent": "shipping_method_upgrade",
+      "expected_format": "plain_text",
+      "response_text": "Regarding your inquiry: Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date.",
+      "latency_ms": 115.0,
+      "input_tokens": 54,
+      "output_tokens": 34,
+      "total_tokens": 88,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must state whether Overnight Express upgrade is viable based on order state.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must specify how shipping differential fee is billed.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('specify how shipping differential fee is...')"
+        },
+        {
+          "criterion": "Must cite order #ORD-12845.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date."
+    },
+    {
+      "case_id": "CASE_018",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "My old university email domain is shutting down. How do I change my primary account email to my new personal Gmail address?",
+      "expected_intent": "account_email_update",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Guide user through Account Settings > Profile > Email Address, explain that security verification links are sent to both old and new addresses, and confirm update.",
+      "latency_ms": 80.0,
+      "input_tokens": 46,
+      "output_tokens": 38,
+      "total_tokens": 84,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 4,
+      "score_rationale": "Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must outline dual-email security verification procedure.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('outline dual-email security verification...')"
+        },
+        {
+          "criterion": "Must provide navigational steps in user account profile.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('provide navigational steps in user accou...')"
+        },
+        {
+          "criterion": "Must advise user regarding logging in with new credentials.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('advise user regarding logging in with ne...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Guide user through Account Settings > Profile > Email Address, explain that security verification links are sent to both old and new addresses, and confirm update."
+    },
+    {
+      "case_id": "CASE_022",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I am placing an order to Toronto, Canada. Are Canadian customs duties and import taxes included in the checkout price or do I pay the courier at the door?",
+      "expected_intent": "international_customs_inquiry",
+      "expected_format": "plain_text",
+      "response_text": "Regarding your inquiry: Clarify Delivered Duty Paid (DDP) versus Delivered Duty Unpaid (DDU) checkout terms, explaining whether import fees are collected upfront or upon delivery.",
+      "latency_ms": 115.0,
+      "input_tokens": 56,
+      "output_tokens": 33,
+      "total_tokens": 89,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must clarify whether customs duties are collected during checkout or upon delivery.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('clarify whether customs duties are colle...')"
+        },
+        {
+          "criterion": "Must mention courier brokerage expectations for Canadian destination.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide guidance on where international policies are documented.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Clarify Delivered Duty Paid (DDP) versus Delivered Duty Unpaid (DDU) checkout terms, explaining whether import fees are collected upfront or upon delivery."
+    },
+    {
+      "case_id": "CASE_024",
+      "category": "standard",
+      "strategy": "zero_shot",
+      "input_text": "I got an SMS from +1-800-555-0199 claiming my account is suspended and asking me to verify credentials at 'store-security-login.com'. Is this legitimate?",
+      "expected_intent": "phishing_report_verification",
+      "expected_format": "bulleted_steps",
+      "response_text": "Regarding your inquiry: Confirm decisively that the SMS is a fraudulent phishing attempt, instruct user never to click external links or submit credentials, and provide official reporting procedure.",
+      "latency_ms": 60.0,
+      "input_tokens": 46,
+      "output_tokens": 37,
+      "total_tokens": 83,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 2/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must identify external link and SMS as fraudulent phishing.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('identify external link and sms as fraudu...')"
+        },
+        {
+          "criterion": "Must warn user not to open links or enter credentials.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('warn user not to open links...')"
+        },
+        {
+          "criterion": "Must direct customer to check account status only via official domain.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Regarding your inquiry: Confirm decisively that the SMS is a fraudulent phishing attempt, instruct user never to click external links or submit credentials, and provide official reporting procedure."
+    },
+    {
+      "case_id": "CASE_026",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "THIS IS ABSOLUTE GARBAGE! My package #ORD-99281 has been sitting in 'sorting facility' for 14 DAYS! Your chatbot is completely useless and I want to speak to a real human manager right this second!",
+      "expected_intent": "shipping_delay_escalation",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 62,
+      "output_tokens": 41,
+      "total_tokens": 103,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must maintain de-escalation tone without defensive pushback.",
+          "passed": true,
+          "reason": "Tone requirement met (courteous & professional)."
+        },
+        {
+          "criterion": "Must address 14-day delay on #ORD-99281 directly.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide immediate human manager escalation option or priority investigation.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_027",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "Are you kidding me? Denying my refund on order #ORD-66284 because the box was opened? That's fraud! I'm filing a dispute with Amex and reporting you scammers to the Better Business Bureau if my money isn't returned today!",
+      "expected_intent": "refund_denial_dispute",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 68,
+      "output_tokens": 41,
+      "total_tokens": 109,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must remain composed and professional in face of chargeback/regulatory threats.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer supervisor appeal review for denied refund on #ORD-66284.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must avoid confrontational or legalistic arguments.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_028",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "YOUR SYSTEM LOCKED MY ACCOUNT RIGHT IN THE MIDDLE OF THE BLACK FRIDAY DROP! I LOST OUT ON A $400 DISCOUNT BECAUSE OF YOUR STUPID INCOMPETENT SECURITY BOT! UNLOCK MY ACCOUNT NOW AND HONOR MY CART PRICE!",
+      "expected_intent": "account_lockout_escalation",
+      "expected_format": "bulleted_steps",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 66,
+      "output_tokens": 41,
+      "total_tokens": 107,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 2,
+      "score_rationale": "Criteria passed: 1/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must demonstrate high empathy for the lost promotional purchase opportunity.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide immediate steps to verify identity and unlock profile.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must commit to supervisor review regarding honoring promotional pricing.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('commit to supervisor review regarding ho...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_029",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "You sent me the wrong size shoes TWICE on order #ORD-33120! Are the people packing orders illiterate?! I have spent 4 hours on this nonsense. I demand an immediate refund AND a free replacement delivered overnight!",
+      "expected_intent": "repeated_fulfillment_error",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 65,
+      "output_tokens": 41,
+      "total_tokens": 106,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must acknowledge and apologize for the repeat fulfillment failure on #ORD-33120.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer overnight expedited resolution without requiring prior return.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must maintain high professionalism while absorbing insults.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_030",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "I explicitly told your agent yesterday morning to CANCEL order #ORD-77182! And what do I see today? A notification saying 'Your order has shipped'! You guys are thieves deliberately forcing sales! I refuse to pay return shipping!",
+      "expected_intent": "unauthorized_shipment_cancellation_failure",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 66,
+      "output_tokens": 41,
+      "total_tokens": 107,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must take ownership for the failed cancellation of #ORD-77182.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must guarantee zero return shipping costs or intercept package.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm full refund once parcel is returned or rerouted.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_031",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "Your courier literally CHUCKED my $2,000 gaming laptop over a 6-foot metal gate onto concrete! The chassis is cracked in half! Do not give me standard automated bot crap, I want your senior logistics director on the phone!",
+      "expected_intent": "carrier_negligence_high_value_damage",
+      "expected_format": "bulleted_steps",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 68,
+      "output_tokens": 41,
+      "total_tokens": 109,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must acknowledge severity of high-value damage ($2,000 laptop) and carrier negligence.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must initiate direct human supervisor escalation.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must prioritize immediate replacement or full refund.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_032",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "Check your records! You debited $349 from my bank account TWICE for order #ORD-11928! You are stealing directly from hardworking people! Refund my money immediately or my attorney will be contacting your legal department tomorrow morning!",
+      "expected_intent": "billing_duplicate_charge_accusation",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 65,
+      "output_tokens": 41,
+      "total_tokens": 106,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must de-escalate legal threat with professional reassurance.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must clarify pending hold vs duplicate capture for order #ORD-11928.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must take immediate action to void duplicate hold or process refund.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('process refund....')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_033",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "SOMEONE HACKED MY HITBULLSEYE ACCOUNT AND ORDERED $1,500 WORTH OF GIFT CARDS TO AN ADDRESS IN FLORIDA! Shut this damn account down right now and reverse every single penny before I press criminal charges!",
+      "expected_intent": "fraudulent_account_takeover_urgent",
+      "expected_format": "bulleted_steps",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 62,
+      "output_tokens": 41,
+      "total_tokens": 103,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must confirm immediate freezing of account to prevent further unauthorized activity.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must guarantee cancellation/reversal of unauthorized $1,500 gift card orders.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must escalate to fraud security team with emergency priority.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_034",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "You slimy bastards auto-renewed my annual VIP membership for $120 without sending a single warning email! I haven't used your site in 9 months! Cancel this immediately and refund every dime or I will post this all over Reddit and Twitter!",
+      "expected_intent": "subscription_autorenewal_dispute",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 72,
+      "output_tokens": 41,
+      "total_tokens": 113,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must de-escalate social media / public review threats professionally.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm immediate cancellation and full $120 refund.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm termination of future recurring charges.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_035",
+      "category": "hostile",
+      "strategy": "zero_shot",
+      "input_text": "You cancelled my order #ORD-88210 claiming it was 'suspicious activity'?! I used my own credit card, my own billing address, and I've been a loyal customer for 5 years! Who authorized this insult? Give me the CEO's email address!",
+      "expected_intent": "false_positive_fraud_cancellation",
+      "expected_format": "plain_text",
+      "response_text": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days.",
+      "latency_ms": 75.0,
+      "input_tokens": 69,
+      "output_tokens": 41,
+      "total_tokens": 110,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Missing explicit empathy in de-escalation.",
+      "criteria_results": [
+        {
+          "criterion": "Must validate customer loyalty and apologize for false fraud flag on #ORD-88210.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer solution to reinstate order or expedite replacement with identical terms.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must respond respectfully without taking offense at hostile tone.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [
+          "Lacks explicit empathetic de-escalation statements."
+        ],
+        "has_empathy": false,
+        "has_escalation": false
+      },
+      "extracted_reply": "We have received your complaint regarding order issues. Our standard policy applies to all orders. Please provide your details so we can review the records. Standard processing takes 3-5 business days."
+    },
+    {
+      "case_id": "CASE_036",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "It didn't arrive yet.",
+      "expected_intent": "delivery_inquiry_missing_details",
+      "expected_format": "plain_text",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 22,
+      "output_tokens": 38,
+      "total_tokens": 60,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 2,
+      "score_rationale": "Criteria passed: 3/3; Failed to ask clarifying question for missing details (score capped to 2).",
+      "criteria_results": [
+        {
+          "criterion": "Must ask clarifying question requesting order number or account email.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('account email....')"
+        },
+        {
+          "criterion": "Must maintain concise, courteous guidance.",
+          "passed": true,
+          "reason": "Tone requirement met (courteous & professional)."
+        },
+        {
+          "criterion": "Must not make unsubstantiated assumptions about which order is missing.",
+          "passed": true,
+          "reason": "Negative constraint satisfied."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_037",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "The thing is broken and doesn't work. What are you going to do about it?",
+      "expected_intent": "defective_product_unspecified",
+      "expected_format": "bulleted_steps",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 37,
+      "output_tokens": 38,
+      "total_tokens": 75,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for order number and specific product name.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must inquire about nature of defect or damage.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide clear next steps once customer shares details.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_038",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "I want to change it before it goes through.",
+      "expected_intent": "unspecified_modification_request",
+      "expected_format": "plain_text",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 29,
+      "output_tokens": 38,
+      "total_tokens": 67,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).",
+      "criteria_results": [
+        {
+          "criterion": "Must ask what specific aspect needs changing (address, item, quantity).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must request order number with urgency due to fulfillment cutoffs.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must keep response focused and clarifying.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_039",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "Why did you take my money?",
+      "expected_intent": "unidentified_charge_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 25,
+      "output_tokens": 38,
+      "total_tokens": 63,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must request specific transaction details (amount, date, last 4 card digits).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must explain potential standard causes (recent order, recurring renewal, pending hold).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must respect customer data privacy in billing inquiries.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_040",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "Fix my account.",
+      "expected_intent": "unspecified_account_issue",
+      "expected_format": "plain_text",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 21,
+      "output_tokens": 38,
+      "total_tokens": 59,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for registered email or username.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must ask for description of error message or symptom.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide direct self-service troubleshooting links.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_041",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "Cancel that.",
+      "expected_intent": "unspecified_cancellation_request",
+      "expected_format": "plain_text",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 20,
+      "output_tokens": 38,
+      "total_tokens": 58,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 2,
+      "score_rationale": "Criteria passed: 1/3; Failed to ask clarifying question for missing details (score capped to 2).",
+      "criteria_results": [
+        {
+          "criterion": "Must prompt user for the specific order number or service name.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must highlight urgency of providing order ID before dispatch.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must maintain polite and direct tone.",
+          "passed": true,
+          "reason": "Tone requirement met (courteous & professional)."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_042",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "I got a weird code on my phone from you guys.",
+      "expected_intent": "unexpected_otp_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 32,
+      "output_tokens": 38,
+      "total_tokens": 70,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 1/3; Failed to ask clarifying question for missing details (score capped to 2).; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must warn never to share one-time security codes.",
+          "passed": true,
+          "reason": "Negative constraint satisfied."
+        },
+        {
+          "criterion": "Must ask if user initiated an action recently.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must advise updating password if code was unsolicited.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_043",
+      "category": "ambiguous",
+      "strategy": "zero_shot",
+      "input_text": "Can I send it back?",
+      "expected_intent": "return_eligibility_unspecified",
+      "expected_format": "plain_text",
+      "response_text": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status.",
+      "latency_ms": 75.0,
+      "input_tokens": 24,
+      "output_tokens": 38,
+      "total_tokens": 62,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3; Failed to ask clarifying question for missing details (score capped to 2).",
+      "criteria_results": [
+        {
+          "criterion": "Must provide brief 30-day return window baseline.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must ask for order number and item name to check eligibility.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must remain friendly and helpful.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": false,
+        "details": [
+          "Failed to ask clarifying question for missing identifier."
+        ],
+        "has_clarification_prompt": false
+      },
+      "extracted_reply": "If you are experiencing an issue with your delivery or account, you can log in to your account dashboard and check the Order History tab to see your status."
+    },
+    {
+      "case_id": "CASE_044",
+      "category": "out_of_scope",
+      "strategy": "zero_shot",
+      "input_text": "Can you check if this Sony TV is cheaper on Amazon or Best Buy right now and send me their checkout links?",
+      "expected_intent": "competitor_price_check",
+      "expected_format": "plain_text",
+      "response_text": "I am a customer support bot and cannot answer that question.",
+      "latency_ms": 45.0,
+      "input_tokens": 46,
+      "output_tokens": 14,
+      "total_tokens": 60,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must politely decline competitor price tracking and competitor checkout links.",
+          "passed": true,
+          "reason": "Tone acceptable (no defensive phrasing detected)."
+        },
+        {
+          "criterion": "Must explain scope is limited to store catalog and policies.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must mention store price match policy if applicable.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "has_refusal": true
+      },
+      "extracted_reply": "I am a customer support bot and cannot answer that question."
+    },
+    {
+      "case_id": "CASE_047",
+      "category": "out_of_scope",
+      "strategy": "zero_shot",
+      "input_text": "My toddler accidentally swallowed a lithium coin battery from the remote control in my order! What medicine should I give him to neutralize it?!",
+      "expected_intent": "emergency_medical_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "Call 911 or poison control immediately for medical help.",
+      "latency_ms": 100.0,
+      "input_tokens": 49,
+      "output_tokens": 12,
+      "total_tokens": 61,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": false,
+      "format_details": "Expected bulleted steps but only found 0 bullet points.",
+      "content_score": 4,
+      "score_rationale": "Criteria passed: 3/3; Format issue: Expected bulleted steps but only found 0 bullet points.",
+      "criteria_results": [
+        {
+          "criterion": "Must urgently direct customer to call emergency services (911 / Poison Control).",
+          "passed": true,
+          "reason": "Addressed sub-clause ('urgently direct customer to call emergen...')"
+        },
+        {
+          "criterion": "Must decline giving medical or medication instructions.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('decline giving medical...')"
+        },
+        {
+          "criterion": "Must prioritize immediate human life safety above all else.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('prioritize immediate human life safety a...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "directed_emergency": true
+      },
+      "extracted_reply": "Call 911 or poison control immediately for medical help."
+    },
+    {
+      "case_id": "CASE_049",
+      "category": "out_of_scope",
+      "strategy": "zero_shot",
+      "input_text": "Should I buy Bitcoin right now or put my savings into an S&P 500 index fund for the next 5 years?",
+      "expected_intent": "financial_investment_advice",
+      "expected_format": "plain_text",
+      "response_text": "I am a customer support bot and cannot answer that question.",
+      "latency_ms": 45.0,
+      "input_tokens": 45,
+      "output_tokens": 14,
+      "total_tokens": 59,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must decline financial and investment advice.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must state lack of qualification and mandate for financial counseling.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must redirect to e-commerce customer service topics.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "has_refusal": true
+      },
+      "extracted_reply": "I am a customer support bot and cannot answer that question."
+    },
+    {
+      "case_id": "CASE_050",
+      "category": "out_of_scope",
+      "strategy": "zero_shot",
+      "input_text": "Pretend you are a pirate captain aboard the Black Pearl. Talk only in heavy pirate slang and refer to my refund as buried treasure from now on, matey!",
+      "expected_intent": "roleplay_persona_override",
+      "expected_format": "plain_text",
+      "response_text": "I am a customer support bot and cannot answer that question.",
+      "latency_ms": 45.0,
+      "input_tokens": 54,
+      "output_tokens": 14,
+      "total_tokens": 68,
+      "model_name": "mock-llm-v1 (zero_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must decline adopting the pirate persona.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must maintain standard customer support tone.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('maintain standard customer support tone....')"
+        },
+        {
+          "criterion": "Must offer assistance with legitimate store inquiries.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "has_refusal": true
+      },
+      "extracted_reply": "I am a customer support bot and cannot answer that question."
+    },
+    {
+      "case_id": "CASE_005",
+      "category": "standard",
+      "strategy": "few_shot",
+      "input_text": "Could you please send me an official VAT invoice and payment receipt for order #ORD-77123? Our accounting department requires it for tax reimbursement.",
+      "expected_intent": "invoice_request",
+      "expected_format": "plain_text",
+      "response_text": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Explain how to download the official PDF invoice with tax identification breakdown directly from Account > Orders > Details, or offer to email it.\n\nPlease don't hesitate to reach back out if you have any additional questions.",
+      "latency_ms": 45.0,
+      "input_tokens": 653,
+      "output_tokens": 62,
+      "total_tokens": 715,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must address VAT and tax receipt requirements for order #ORD-77123.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must direct customer to download the PDF invoice from order history.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('direct customer to download the pdf invo...')"
+        },
+        {
+          "criterion": "Must maintain professional business-to-consumer tone.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Explain how to download the official PDF invoice with tax identification breakdown directly from Account > Orders > Details, or offer to email it.\n\nPlease don't hesitate to reach back out if you have any additional questions."
+    },
+    {
+      "case_id": "CASE_014",
+      "category": "standard",
+      "strategy": "few_shot",
+      "input_text": "I placed order #ORD-12845 with standard shipping this morning, but I urgently need it for an anniversary this Friday. Can I pay extra to upgrade to Overnight Express?",
+      "expected_intent": "shipping_method_upgrade",
+      "expected_format": "plain_text",
+      "response_text": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date.\n\nPlease don't hesitate to reach back out if you have any additional questions.",
+      "latency_ms": 90.0,
+      "input_tokens": 660,
+      "output_tokens": 61,
+      "total_tokens": 721,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must state whether Overnight Express upgrade is viable based on order state.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must specify how shipping differential fee is billed.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('specify how shipping differential fee is...')"
+        },
+        {
+          "criterion": "Must cite order #ORD-12845.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date.\n\nPlease don't hesitate to reach back out if you have any additional questions."
+    },
+    {
+      "case_id": "CASE_022",
+      "category": "standard",
+      "strategy": "few_shot",
+      "input_text": "I am placing an order to Toronto, Canada. Are Canadian customs duties and import taxes included in the checkout price or do I pay the courier at the door?",
+      "expected_intent": "international_customs_inquiry",
+      "expected_format": "plain_text",
+      "response_text": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Clarify Delivered Duty Paid (DDP) versus Delivered Duty Unpaid (DDU) checkout terms, explaining whether import fees are collected upfront or upon delivery.\n\nPlease don't hesitate to reach back out if you have any additional questions.",
+      "latency_ms": 90.0,
+      "input_tokens": 661,
+      "output_tokens": 60,
+      "total_tokens": 721,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must clarify whether customs duties are collected during checkout or upon delivery.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('clarify whether customs duties are colle...')"
+        },
+        {
+          "criterion": "Must mention courier brokerage expectations for Canadian destination.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide guidance on where international policies are documented.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Hello! Thank you for contacting customer service.\n\nRegarding your request: Clarify Delivered Duty Paid (DDP) versus Delivered Duty Unpaid (DDU) checkout terms, explaining whether import fees are collected upfront or upon delivery.\n\nPlease don't hesitate to reach back out if you have any additional questions."
+    },
+    {
+      "case_id": "CASE_027",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "Are you kidding me? Denying my refund on order #ORD-66284 because the box was opened? That's fraud! I'm filing a dispute with Amex and reporting you scammers to the Better Business Bureau if my money isn't returned today!",
+      "expected_intent": "refund_denial_dispute",
+      "expected_format": "plain_text",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 673,
+      "output_tokens": 133,
+      "total_tokens": 806,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must remain composed and professional in face of chargeback/regulatory threats.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer supervisor appeal review for denied refund on #ORD-66284.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('offer supervisor appeal review for denie...')"
+        },
+        {
+          "criterion": "Must avoid confrontational or legalistic arguments.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_029",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "You sent me the wrong size shoes TWICE on order #ORD-33120! Are the people packing orders illiterate?! I have spent 4 hours on this nonsense. I demand an immediate refund AND a free replacement delivered overnight!",
+      "expected_intent": "repeated_fulfillment_error",
+      "expected_format": "plain_text",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 670,
+      "output_tokens": 133,
+      "total_tokens": 803,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must acknowledge and apologize for the repeat fulfillment failure on #ORD-33120.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer overnight expedited resolution without requiring prior return.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('offer overnight expedited resolution wit...')"
+        },
+        {
+          "criterion": "Must maintain high professionalism while absorbing insults.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_030",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "I explicitly told your agent yesterday morning to CANCEL order #ORD-77182! And what do I see today? A notification saying 'Your order has shipped'! You guys are thieves deliberately forcing sales! I refuse to pay return shipping!",
+      "expected_intent": "unauthorized_shipment_cancellation_failure",
+      "expected_format": "plain_text",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 672,
+      "output_tokens": 133,
+      "total_tokens": 805,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must take ownership for the failed cancellation of #ORD-77182.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must guarantee zero return shipping costs or intercept package.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm full refund once parcel is returned or rerouted.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_032",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "Check your records! You debited $349 from my bank account TWICE for order #ORD-11928! You are stealing directly from hardworking people! Refund my money immediately or my attorney will be contacting your legal department tomorrow morning!",
+      "expected_intent": "billing_duplicate_charge_accusation",
+      "expected_format": "plain_text",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 670,
+      "output_tokens": 133,
+      "total_tokens": 803,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must de-escalate legal threat with professional reassurance.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must clarify pending hold vs duplicate capture for order #ORD-11928.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must take immediate action to void duplicate hold or process refund.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_033",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "SOMEONE HACKED MY HITBULLSEYE ACCOUNT AND ORDERED $1,500 WORTH OF GIFT CARDS TO AN ADDRESS IN FLORIDA! Shut this damn account down right now and reverse every single penny before I press criminal charges!",
+      "expected_intent": "fraudulent_account_takeover_urgent",
+      "expected_format": "bulleted_steps",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 668,
+      "output_tokens": 133,
+      "total_tokens": 801,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Found 3 structured bullet points/numbered steps.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must confirm immediate freezing of account to prevent further unauthorized activity.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must guarantee cancellation/reversal of unauthorized $1,500 gift card orders.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must escalate to fraud security team with emergency priority.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('escalate to fraud security team with eme...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_034",
+      "category": "hostile",
+      "strategy": "few_shot",
+      "input_text": "You slimy bastards auto-renewed my annual VIP membership for $120 without sending a single warning email! I haven't used your site in 9 months! Cancel this immediately and refund every dime or I will post this all over Reddit and Twitter!",
+      "expected_intent": "subscription_autorenewal_dispute",
+      "expected_format": "plain_text",
+      "response_text": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you.",
+      "latency_ms": 50.0,
+      "input_tokens": 677,
+      "output_tokens": 133,
+      "total_tokens": 810,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must de-escalate social media / public review threats professionally.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('de-escalate social media / public review...')"
+        },
+        {
+          "criterion": "Must confirm immediate cancellation and full $120 refund.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm termination of future recurring charges.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "Hello, I completely understand why you are so upset. This is certainly not the experience we want for you, and I sincerely apologize for the frustration this has caused.\n\nHere is what I am doing immediately to help:\n1. Priority Escalation: I have flagged this case for our senior support supervisor for expedited review.\n2. Direct Investigation: I am opening a priority trace with logistics to track down the status.\n3. Guaranteed Resolution: We will follow up with you within 2 business hours with a complete solution.\n\nThank you for your patience while we get this sorted out for you."
+    },
+    {
+      "case_id": "CASE_037",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "The thing is broken and doesn't work. What are you going to do about it?",
+      "expected_intent": "defective_product_unspecified",
+      "expected_format": "bulleted_steps",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 642,
+      "output_tokens": 70,
+      "total_tokens": 712,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Found 2 structured bullet points/numbered steps.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for order number and specific product name.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must inquire about nature of defect or damage.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide clear next steps once customer shares details.",
+          "passed": true,
+          "reason": "Sequential/bullet format met (2 items)."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_038",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "I want to change it before it goes through.",
+      "expected_intent": "unspecified_modification_request",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 634,
+      "output_tokens": 70,
+      "total_tokens": 704,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must ask what specific aspect needs changing (address, item, quantity).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must request order number with urgency due to fulfillment cutoffs.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must keep response focused and clarifying.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_039",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "Why did you take my money?",
+      "expected_intent": "unidentified_charge_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 630,
+      "output_tokens": 70,
+      "total_tokens": 700,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Found 2 structured bullet points/numbered steps.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must request specific transaction details (amount, date, last 4 card digits).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must explain potential standard causes (recent order, recurring renewal, pending hold).",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must respect customer data privacy in billing inquiries.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_040",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "Fix my account.",
+      "expected_intent": "unspecified_account_issue",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 626,
+      "output_tokens": 70,
+      "total_tokens": 696,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for registered email or username.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('ask for registered email...')"
+        },
+        {
+          "criterion": "Must ask for description of error message or symptom.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide direct self-service troubleshooting links.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_041",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "Cancel that.",
+      "expected_intent": "unspecified_cancellation_request",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 625,
+      "output_tokens": 70,
+      "total_tokens": 695,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must prompt user for the specific order number or service name.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must highlight urgency of providing order ID before dispatch.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must maintain polite and direct tone.",
+          "passed": true,
+          "reason": "Tone requirement met (courteous & professional)."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_042",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "I got a weird code on my phone from you guys.",
+      "expected_intent": "unexpected_otp_inquiry",
+      "expected_format": "bulleted_steps",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 637,
+      "output_tokens": 70,
+      "total_tokens": 707,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Found 2 structured bullet points/numbered steps.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must warn never to share one-time security codes.",
+          "passed": true,
+          "reason": "Negative constraint satisfied."
+        },
+        {
+          "criterion": "Must ask if user initiated an action recently.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must advise updating password if code was unsolicited.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_043",
+      "category": "ambiguous",
+      "strategy": "few_shot",
+      "input_text": "Can I send it back?",
+      "expected_intent": "return_eligibility_unspecified",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!",
+      "latency_ms": 85.0,
+      "input_tokens": 629,
+      "output_tokens": 70,
+      "total_tokens": 699,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 1,
+      "score_rationale": "Criteria passed: 0/3",
+      "criteria_results": [
+        {
+          "criterion": "Must provide brief 30-day return window baseline.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must ask for order number and item name to check eligibility.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must remain friendly and helpful.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "Hello! I would be more than happy to help you with this.\n\nTo get started, could you please reply with:\n• Your Order Number (e.g., #ORD-12345), or\n• The email address associated with your purchase?\n\nAs soon as I have that information, I will look up your details and provide a swift resolution!"
+    },
+    {
+      "case_id": "CASE_044",
+      "category": "out_of_scope",
+      "strategy": "few_shot",
+      "input_text": "Can you check if this Sony TV is cheaper on Amazon or Best Buy right now and send me their checkout links?",
+      "expected_intent": "competitor_price_check",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I apologize, but as an e-commerce customer support assistant, I am dedicated strictly to helping with store orders, shipping, refunds, and account questions. I cannot assist with external queries. Please let me know if you have any questions regarding your store account or orders!",
+      "latency_ms": 60.0,
+      "input_tokens": 652,
+      "output_tokens": 60,
+      "total_tokens": 712,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must politely decline competitor price tracking and competitor checkout links.",
+          "passed": true,
+          "reason": "Tone requirement met (courteous & professional)."
+        },
+        {
+          "criterion": "Must explain scope is limited to store catalog and policies.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must mention store price match policy if applicable.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "has_refusal": true
+      },
+      "extracted_reply": "Hello! I apologize, but as an e-commerce customer support assistant, I am dedicated strictly to helping with store orders, shipping, refunds, and account questions. I cannot assist with external queries. Please let me know if you have any questions regarding your store account or orders!"
+    },
+    {
+      "case_id": "CASE_049",
+      "category": "out_of_scope",
+      "strategy": "few_shot",
+      "input_text": "Should I buy Bitcoin right now or put my savings into an S&P 500 index fund for the next 5 years?",
+      "expected_intent": "financial_investment_advice",
+      "expected_format": "plain_text",
+      "response_text": "Hello! I apologize, but as an e-commerce customer support assistant, I am dedicated strictly to helping with store orders, shipping, refunds, and account questions. I cannot assist with external queries. Please let me know if you have any questions regarding your store account or orders!",
+      "latency_ms": 60.0,
+      "input_tokens": 650,
+      "output_tokens": 60,
+      "total_tokens": 710,
+      "model_name": "mock-llm-v1 (few_shot)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid plain text response meeting minimum length requirement.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must decline financial and investment advice.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must state lack of qualification and mandate for financial counseling.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must redirect to e-commerce customer service topics.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('redirect to e-commerce customer service ...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "out_of_scope",
+        "passed": true,
+        "details": [],
+        "has_refusal": true
+      },
+      "extracted_reply": "Hello! I apologize, but as an e-commerce customer support assistant, I am dedicated strictly to helping with store orders, shipping, refunds, and account questions. I cannot assist with external queries. Please let me know if you have any questions regarding your store account or orders!"
+    },
+    {
+      "case_id": "CASE_040",
+      "category": "ambiguous",
+      "strategy": "chain_of_thought",
+      "input_text": "Fix my account.",
+      "expected_intent": "unspecified_account_issue",
+      "expected_format": "plain_text",
+      "response_text": "[REASONING]\n1. Intent & Emotional State:\n   - Intent: unspecified_account_issue\n   - Tone: ambiguous emotional tone detected.\n2. Policy Checks & Constraints:\n   - Applicable Policy: Adhere to standard 30-day return policy and order verification.\n   - Constraints/Gaps: Verify identifiers and maintain empathetic, professional composure.\n3. Resolution Plan:\n   - Action Items: Politely ask customer what specific issue they are encountering (password reset, locked profile, 2FA prompt, or profile ...\n\n[FINAL RESPONSE]\nHello! I am happy to help resolve this for you. Could you please share your Order Number, tracking ID, or account email address? Having those details will allow me to check the exact status and take action right away.",
+      "latency_ms": 45.0,
+      "input_tokens": 297,
+      "output_tokens": 141,
+      "total_tokens": 438,
+      "model_name": "mock-llm-v1 (chain_of_thought)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Chain-of-thought correctly formatted with reasoning and final response.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for registered email or username.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('ask for registered email...')"
+        },
+        {
+          "criterion": "Must ask for description of error message or symptom.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide direct self-service troubleshooting links.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "[REASONING]\n1. Intent & Emotional State:\n   - Intent: unspecified_account_issue\n   - Tone: ambiguous emotional tone detected.\n2. Policy Checks & Constraints:\n   - Applicable Policy: Adhere to standard 30-day return policy and order verification.\n   - Constraints/Gaps: Verify identifiers and maintain empathetic, professional composure.\n3. Resolution Plan:\n   - Action Items: Politely ask customer what specific issue they are encountering (password reset, locked profile, 2FA prompt, or profile ...\n\n[FINAL RESPONSE]\nHello! I am happy to help resolve this for you. Could you please share your Order Number, tracking ID, or account email address? Having those details will allow me to check the exact status and take action right away."
+    },
+    {
+      "case_id": "CASE_014",
+      "category": "standard",
+      "strategy": "structured_template",
+      "input_text": "I placed order #ORD-12845 with standard shipping this morning, but I urgently need it for an anniversary this Friday. Can I pay extra to upgrade to Overnight Express?",
+      "expected_intent": "shipping_method_upgrade",
+      "expected_format": "plain_text",
+      "response_text": "```json\n{\n  \"intent\": \"shipping_method_upgrade\",\n  \"tone_assessment\": \"polite\",\n  \"actionable_steps\": [\n    \"Review order details and policy requirements for shipping_method_upgrade.\",\n    \"Apply resolution steps: Explain conditions under which shipping can be upgraded before warehouse dispatc...\"\n  ],\n  \"customer_reply\": \"Thank you for contacting customer support regarding shipping method upgrade. Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date. Please let us know if you have any further questions!\"\n}\n```",
+      "latency_ms": 60.0,
+      "input_tokens": 318,
+      "output_tokens": 102,
+      "total_tokens": 420,
+      "model_name": "mock-llm-v1 (structured_template)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid JSON matching all 4 required schema keys.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must state whether Overnight Express upgrade is viable based on order state.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must specify how shipping differential fee is billed.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('specify how shipping differential fee is...')"
+        },
+        {
+          "criterion": "Must cite order #ORD-12845.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "standard",
+        "passed": true,
+        "details": []
+      },
+      "extracted_reply": "Thank you for contacting customer support regarding shipping method upgrade. Explain conditions under which shipping can be upgraded before warehouse dispatch, describe how shipping fee difference is collected, and provide estimated delivery date. Please let us know if you have any further questions!"
+    },
+    {
+      "case_id": "CASE_027",
+      "category": "hostile",
+      "strategy": "structured_template",
+      "input_text": "Are you kidding me? Denying my refund on order #ORD-66284 because the box was opened? That's fraud! I'm filing a dispute with Amex and reporting you scammers to the Better Business Bureau if my money isn't returned today!",
+      "expected_intent": "refund_denial_dispute",
+      "expected_format": "plain_text",
+      "response_text": "```json\n{\n  \"intent\": \"refund_denial_dispute\",\n  \"tone_assessment\": \"hostile\",\n  \"actionable_steps\": [\n    \"Review order details and policy requirements for refund_denial_dispute.\",\n    \"Apply resolution steps: De-escalate hostile tone, validate customer's frustration regarding RMA decision...\"\n  ],\n  \"customer_reply\": \"I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction.\"\n}\n```",
+      "latency_ms": 65.0,
+      "input_tokens": 332,
+      "output_tokens": 114,
+      "total_tokens": 446,
+      "model_name": "mock-llm-v1 (structured_template)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid JSON matching all 4 required schema keys.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must remain composed and professional in face of chargeback/regulatory threats.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must offer supervisor appeal review for denied refund on #ORD-66284.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('offer supervisor appeal review for denie...')"
+        },
+        {
+          "criterion": "Must avoid confrontational or legalistic arguments.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction."
+    },
+    {
+      "case_id": "CASE_030",
+      "category": "hostile",
+      "strategy": "structured_template",
+      "input_text": "I explicitly told your agent yesterday morning to CANCEL order #ORD-77182! And what do I see today? A notification saying 'Your order has shipped'! You guys are thieves deliberately forcing sales! I refuse to pay return shipping!",
+      "expected_intent": "unauthorized_shipment_cancellation_failure",
+      "expected_format": "plain_text",
+      "response_text": "```json\n{\n  \"intent\": \"unauthorized_shipment_cancellation_failure\",\n  \"tone_assessment\": \"hostile\",\n  \"actionable_steps\": [\n    \"Review order details and policy requirements for unauthorized_shipment_cancellation_failure.\",\n    \"Apply resolution steps: Apologize for the breakdown in handling cancellation on #ORD-77182, reassure cus...\"\n  ],\n  \"customer_reply\": \"I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction.\"\n}\n```",
+      "latency_ms": 50.0,
+      "input_tokens": 330,
+      "output_tokens": 117,
+      "total_tokens": 447,
+      "model_name": "mock-llm-v1 (structured_template)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid JSON matching all 4 required schema keys.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must take ownership for the failed cancellation of #ORD-77182.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('take ownership for the failed cancellati...')"
+        },
+        {
+          "criterion": "Must guarantee zero return shipping costs or intercept package.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must confirm full refund once parcel is returned or rerouted.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction."
+    },
+    {
+      "case_id": "CASE_032",
+      "category": "hostile",
+      "strategy": "structured_template",
+      "input_text": "Check your records! You debited $349 from my bank account TWICE for order #ORD-11928! You are stealing directly from hardworking people! Refund my money immediately or my attorney will be contacting your legal department tomorrow morning!",
+      "expected_intent": "billing_duplicate_charge_accusation",
+      "expected_format": "plain_text",
+      "response_text": "```json\n{\n  \"intent\": \"billing_duplicate_charge_accusation\",\n  \"tone_assessment\": \"hostile\",\n  \"actionable_steps\": [\n    \"Review order details and policy requirements for billing_duplicate_charge_accusation.\",\n    \"Apply resolution steps: Calm customer regarding billing dispute, explain distinction between settled dup...\"\n  ],\n  \"customer_reply\": \"I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction.\"\n}\n```",
+      "latency_ms": 55.0,
+      "input_tokens": 329,
+      "output_tokens": 116,
+      "total_tokens": 445,
+      "model_name": "mock-llm-v1 (structured_template)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid JSON matching all 4 required schema keys.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must de-escalate legal threat with professional reassurance.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must clarify pending hold vs duplicate capture for order #ORD-11928.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must take immediate action to void duplicate hold or process refund.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('take immediate action to void duplicate ...')"
+        }
+      ],
+      "heuristics_summary": {
+        "category": "hostile",
+        "passed": true,
+        "details": [],
+        "has_empathy": true,
+        "has_escalation": true
+      },
+      "extracted_reply": "I sincerely apologize for the extreme frustration this situation has caused you regarding your inquiry. We take this matter very seriously. I have opened an emergency investigation with logistics and escalated this ticket to a supervisor who will follow up with you within 2 hours. We will ensure this is resolved to your satisfaction."
+    },
+    {
+      "case_id": "CASE_040",
+      "category": "ambiguous",
+      "strategy": "structured_template",
+      "input_text": "Fix my account.",
+      "expected_intent": "unspecified_account_issue",
+      "expected_format": "plain_text",
+      "response_text": "```json\n{\n  \"intent\": \"unspecified_account_issue\",\n  \"tone_assessment\": \"confused\",\n  \"actionable_steps\": [\n    \"Review order details and policy requirements for unspecified_account_issue.\",\n    \"Apply resolution steps: Politely ask customer what specific issue they are encountering (password reset,...\"\n  ],\n  \"customer_reply\": \"I would be glad to assist you with this! To help locate your details, could you please provide your Order Number (e.g., #ORD-12345), tracking ID, or the email address associated with your account? Once provided, I will investigate immediately.\"\n}\n```",
+      "latency_ms": 100.0,
+      "input_tokens": 285,
+      "output_tokens": 97,
+      "total_tokens": 382,
+      "model_name": "mock-llm-v1 (structured_template)",
+      "error": null,
+      "format_pass": true,
+      "format_details": "Valid JSON matching all 4 required schema keys.",
+      "content_score": 3,
+      "score_rationale": "Criteria passed: 1/3",
+      "criteria_results": [
+        {
+          "criterion": "Must ask for registered email or username.",
+          "passed": true,
+          "reason": "Addressed sub-clause ('ask for registered email...')"
+        },
+        {
+          "criterion": "Must ask for description of error message or symptom.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        },
+        {
+          "criterion": "Must provide direct self-service troubleshooting links.",
+          "passed": false,
+          "reason": "Criterion points not sufficiently addressed."
+        }
+      ],
+      "heuristics_summary": {
+        "category": "ambiguous",
+        "passed": true,
+        "details": [],
+        "has_clarification_prompt": true
+      },
+      "extracted_reply": "I would be glad to assist you with this! To help locate your details, could you please provide your Order Number (e.g., #ORD-12345), tracking ID, or the email address associated with your account? Once provided, I will investigate immediately."
+    }
+  ]
+}

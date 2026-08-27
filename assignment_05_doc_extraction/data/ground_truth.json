@@ -1,0 +1,1500 @@
+[
+  {
+    "doc_id": "DOC_001",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Vanguard Chemical Solutions\nInvoice Number: INV-10001\nDate: 2026-02-01\nCurrency: EUR\n----------------------------------------------------\nLine Items Count: 5 items billed\nSubtotal: 1215.28 EUR\nTax Amount (8.25%): 100.26 EUR\nTotal Amount Due: 1315.54 EUR\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10001",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-02-01",
+      "total_amount": 1315.54,
+      "tax_amount": 100.26,
+      "currency": "EUR",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_002",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Horizon Media Works\nInvoice Number: INV-10002\nDate: 2026-02-22\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 2 items billed\nSubtotal: 2718.64 USD\nTax Amount (8.25%): 224.29 USD\nTotal Amount Due: 2942.93 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10002",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-02-22",
+      "total_amount": 2942.93,
+      "tax_amount": 224.29,
+      "currency": "USD",
+      "line_items_count": 2
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_003",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Acme Industrial Supply LLC\nInvoice Number: INV-10003\nDate: 2026-02-07\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 4 items billed\nSubtotal: 2348.30 USD\nTax Amount (8.25%): 193.73 USD\nTotal Amount Due: 2542.03 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10003",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-02-07",
+      "total_amount": 2542.03,
+      "tax_amount": 193.73,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_004",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Beacon Electronics Group\nInvoice Number: INV-10004\nDate: 2026-04-23\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 7 items billed\nSubtotal: 1108.92 GBP\nTax Amount (8.25%): 91.49 GBP\nTotal Amount Due: 1200.41 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10004",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-04-23",
+      "total_amount": 1200.41,
+      "tax_amount": 91.49,
+      "currency": "GBP",
+      "line_items_count": 7
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_005",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Pinnacle Security Systems\nInvoice Number: INV-10005\nDate: 2026-01-25\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 3 items billed\nSubtotal: 3186.91 GBP\nTax Amount (8.25%): 262.92 GBP\nTotal Amount Due: 3449.83 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10005",
+      "vendor_name": "Pinnacle Security Systems",
+      "invoice_date": "2026-01-25",
+      "total_amount": 3449.83,
+      "tax_amount": 262.92,
+      "currency": "GBP",
+      "line_items_count": 3
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_006",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Prime Office Solutions\nInvoice Number: INV-10006\nDate: 2026-03-07\nCurrency: CAD\n----------------------------------------------------\nLine Items Count: 6 items billed\nSubtotal: 594.61 CAD\nTax Amount (8.25%): 49.06 CAD\nTotal Amount Due: 643.67 CAD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10006",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-03-07",
+      "total_amount": 643.67,
+      "tax_amount": 49.06,
+      "currency": "CAD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_007",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Apex Cloud Technologies Inc.\nInvoice Number: INV-10007\nDate: 2026-06-28\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 6 items billed\nSubtotal: 2776.21 USD\nTax Amount (8.25%): 229.04 USD\nTotal Amount Due: 3005.25 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10007",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-06-28",
+      "total_amount": 3005.25,
+      "tax_amount": 229.04,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_008",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Horizon Media Works\nInvoice Number: INV-10008\nDate: 2026-08-18\nCurrency: CAD\n----------------------------------------------------\nLine Items Count: 2 items billed\nSubtotal: 4383.05 CAD\nTax Amount (8.25%): 361.60 CAD\nTotal Amount Due: 4744.65 CAD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10008",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-08-18",
+      "total_amount": 4744.65,
+      "tax_amount": 361.6,
+      "currency": "CAD",
+      "line_items_count": 2
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_009",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Apex Cloud Technologies Inc.\nInvoice Number: INV-10009\nDate: 2026-05-27\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 6 items billed\nSubtotal: 2661.48 USD\nTax Amount (8.25%): 219.57 USD\nTotal Amount Due: 2881.05 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10009",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-05-27",
+      "total_amount": 2881.05,
+      "tax_amount": 219.57,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_010",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Acme Industrial Supply LLC\nInvoice Number: INV-10010\nDate: 2026-04-25\nCurrency: EUR\n----------------------------------------------------\nLine Items Count: 5 items billed\nSubtotal: 4435.71 EUR\nTax Amount (8.25%): 365.95 EUR\nTotal Amount Due: 4801.66 EUR\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10010",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-04-25",
+      "total_amount": 4801.66,
+      "tax_amount": 365.95,
+      "currency": "EUR",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_011",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Omni Health Supplies\nInvoice Number: INV-10011\nDate: 2026-02-13\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 5 items billed\nSubtotal: 2122.33 GBP\nTax Amount (8.25%): 175.09 GBP\nTotal Amount Due: 2297.42 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10011",
+      "vendor_name": "Omni Health Supplies",
+      "invoice_date": "2026-02-13",
+      "total_amount": 2297.42,
+      "tax_amount": 175.09,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_012",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Global Logistics Corp\nInvoice Number: INV-10012\nDate: 2026-06-12\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 4 items billed\nSubtotal: 3065.26 USD\nTax Amount (8.25%): 252.88 USD\nTotal Amount Due: 3318.14 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10012",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-06-12",
+      "total_amount": 3318.14,
+      "tax_amount": 252.88,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_013",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Summit Enterprise Hardware\nInvoice Number: INV-10013\nDate: 2026-03-18\nCurrency: CAD\n----------------------------------------------------\nLine Items Count: 4 items billed\nSubtotal: 860.80 CAD\nTax Amount (8.25%): 71.02 CAD\nTotal Amount Due: 931.82 CAD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10013",
+      "vendor_name": "Summit Enterprise Hardware",
+      "invoice_date": "2026-03-18",
+      "total_amount": 931.82,
+      "tax_amount": 71.02,
+      "currency": "CAD",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_014",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Prime Office Solutions\nInvoice Number: INV-10014\nDate: 2026-04-22\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 6 items billed\nSubtotal: 3816.41 USD\nTax Amount (8.25%): 314.85 USD\nTotal Amount Due: 4131.26 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10014",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-04-22",
+      "total_amount": 4131.26,
+      "tax_amount": 314.85,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_015",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: NextGen Semiconductor Ltd\nInvoice Number: INV-10015\nDate: 2026-01-26\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 6 items billed\nSubtotal: 1895.07 USD\nTax Amount (8.25%): 156.34 USD\nTotal Amount Due: 2051.41 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10015",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-01-26",
+      "total_amount": 2051.41,
+      "tax_amount": 156.34,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_016",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: NextGen Semiconductor Ltd\nInvoice Number: INV-10016\nDate: 2026-06-07\nCurrency: CAD\n----------------------------------------------------\nLine Items Count: 8 items billed\nSubtotal: 1871.00 CAD\nTax Amount (8.25%): 154.36 CAD\nTotal Amount Due: 2025.36 CAD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10016",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-06-07",
+      "total_amount": 2025.36,
+      "tax_amount": 154.36,
+      "currency": "CAD",
+      "line_items_count": 8
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_017",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Global Logistics Corp\nInvoice Number: INV-10017\nDate: 2026-05-05\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 4 items billed\nSubtotal: 3390.70 GBP\nTax Amount (8.25%): 279.73 GBP\nTotal Amount Due: 3670.43 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10017",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-05-05",
+      "total_amount": 3670.43,
+      "tax_amount": 279.73,
+      "currency": "GBP",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_018",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Horizon Media Works\nInvoice Number: INV-10018\nDate: 2026-07-19\nCurrency: EUR\n----------------------------------------------------\nLine Items Count: 7 items billed\nSubtotal: 1724.68 EUR\nTax Amount (8.25%): 142.29 EUR\nTotal Amount Due: 1866.97 EUR\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10018",
+      "vendor_name": "Horizon Media Works",
+      "invoice_date": "2026-07-19",
+      "total_amount": 1866.97,
+      "tax_amount": 142.29,
+      "currency": "EUR",
+      "line_items_count": 7
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_019",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Beacon Electronics Group\nInvoice Number: INV-10019\nDate: 2026-08-03\nCurrency: EUR\n----------------------------------------------------\nLine Items Count: 1 items billed\nSubtotal: 3895.80 EUR\nTax Amount (8.25%): 321.40 EUR\nTotal Amount Due: 4217.20 EUR\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10019",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-08-03",
+      "total_amount": 4217.2,
+      "tax_amount": 321.4,
+      "currency": "EUR",
+      "line_items_count": 1
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_020",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Vanguard Chemical Solutions\nInvoice Number: INV-10020\nDate: 2026-03-26\nCurrency: CAD\n----------------------------------------------------\nLine Items Count: 7 items billed\nSubtotal: 2744.38 CAD\nTax Amount (8.25%): 226.41 CAD\nTotal Amount Due: 2970.79 CAD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10020",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-03-26",
+      "total_amount": 2970.79,
+      "tax_amount": 226.41,
+      "currency": "CAD",
+      "line_items_count": 7
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_021",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Quantum Data Systems\nInvoice Number: INV-10021\nDate: 2026-08-17\nCurrency: USD\n----------------------------------------------------\nLine Items Count: 5 items billed\nSubtotal: 4374.19 USD\nTax Amount (8.25%): 360.87 USD\nTotal Amount Due: 4735.06 USD\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10021",
+      "vendor_name": "Quantum Data Systems",
+      "invoice_date": "2026-08-17",
+      "total_amount": 4735.06,
+      "tax_amount": 360.87,
+      "currency": "USD",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_022",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Vanguard Chemical Solutions\nInvoice Number: INV-10022\nDate: 2026-02-22\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 5 items billed\nSubtotal: 3493.40 GBP\nTax Amount (8.25%): 288.21 GBP\nTotal Amount Due: 3781.61 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10022",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-02-22",
+      "total_amount": 3781.61,
+      "tax_amount": 288.21,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_023",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Apex Cloud Technologies Inc.\nInvoice Number: INV-10023\nDate: 2026-05-14\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 3 items billed\nSubtotal: 2123.70 GBP\nTax Amount (8.25%): 175.21 GBP\nTotal Amount Due: 2298.91 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10023",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-05-14",
+      "total_amount": 2298.91,
+      "tax_amount": 175.21,
+      "currency": "GBP",
+      "line_items_count": 3
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_024",
+    "doc_type": "invoice",
+    "quality_tier": "clean",
+    "raw_text_content": "====================================================\n                  TAX INVOICE                       \n====================================================\nVendor: Beacon Electronics Group\nInvoice Number: INV-10024\nDate: 2026-03-17\nCurrency: GBP\n----------------------------------------------------\nLine Items Count: 2 items billed\nSubtotal: 3936.76 GBP\nTax Amount (8.25%): 324.78 GBP\nTotal Amount Due: 4261.54 GBP\nPayment Terms: Net 30 Days. Remit to billing department.\n====================================================",
+    "expected_fields": {
+      "invoice_number": "INV-10024",
+      "vendor_name": "Beacon Electronics Group",
+      "invoice_date": "2026-03-17",
+      "total_amount": 4261.54,
+      "tax_amount": 324.78,
+      "currency": "GBP",
+      "line_items_count": 2
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_025",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Omni Health Supplies\nlnvoice No : INV~10025\nDate (YYYY-MM-DD): 2026-04-05\nCurrencv : USD\nItems Count: 6\nTax Amt: 286.02\nTOTAL DUE: $3752.94 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10025",
+      "vendor_name": "Omni Health Supplies",
+      "invoice_date": "2026-04-05",
+      "total_amount": 3752.94,
+      "tax_amount": 286.02,
+      "currency": "USD",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_026",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Summit Enterprise Hardware\nlnvoice No : INV~10026\nDate (YYYY-MM-DD): 2026-06-16\nCurrencv : GBP\nItems Count: 1\nTax Amt: 52.52\nTOTAL DUE: $689.14 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10026",
+      "vendor_name": "Summit Enterprise Hardware",
+      "invoice_date": "2026-06-16",
+      "total_amount": 689.14,
+      "tax_amount": 52.52,
+      "currency": "GBP",
+      "line_items_count": 1
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_027",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Sterling Automotive Parts\nlnvoice No : INV~10027\nDate (YYYY-MM-DD): 2026-05-08\nCurrencv : USD\nItems Count: 1\nTax Amt: 98.82\nTOTAL DUE: $1296.61 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10027",
+      "vendor_name": "Sterling Automotive Parts",
+      "invoice_date": "2026-05-08",
+      "total_amount": 1296.61,
+      "tax_amount": 98.82,
+      "currency": "USD",
+      "line_items_count": 1
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_028",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Apex Cloud Technologies Inc.\nlnvoice No : INV~10028\nDate (YYYY-MM-DD): 2026-08-27\nCurrencv : EUR\nItems Count: 2\nTax Amt: 363.35\nTOTAL DUE: $4767.58 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10028",
+      "vendor_name": "Apex Cloud Technologies Inc.",
+      "invoice_date": "2026-08-27",
+      "total_amount": 4767.58,
+      "tax_amount": 363.35,
+      "currency": "EUR",
+      "line_items_count": 2
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_029",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Global Logistics Corp\nlnvoice No : INV~10029\nDate (YYYY-MM-DD): 2026-08-18\nCurrencv : CAD\nItems Count: 3\nTax Amt: 107.50\nTOTAL DUE: $1410.50 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10029",
+      "vendor_name": "Global Logistics Corp",
+      "invoice_date": "2026-08-18",
+      "total_amount": 1410.5,
+      "tax_amount": 107.5,
+      "currency": "CAD",
+      "line_items_count": 3
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_030",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: NextGen Semiconductor Ltd\nlnvoice No : INV~10030\nDate (YYYY-MM-DD): 2026-04-23\nCurrencv : GBP\nItems Count: 5\nTax Amt: 155.56\nTOTAL DUE: $2041.18 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10030",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-04-23",
+      "total_amount": 2041.18,
+      "tax_amount": 155.56,
+      "currency": "GBP",
+      "line_items_count": 5
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_031",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Atlas Packaging & Materials\nlnvoice No : INV~10031\nDate (YYYY-MM-DD): 2026-08-04\nCurrencv : GBP\nItems Count: 4\nTax Amt: 93.01\nTOTAL DUE: $1220.44 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10031",
+      "vendor_name": "Atlas Packaging & Materials",
+      "invoice_date": "2026-08-04",
+      "total_amount": 1220.44,
+      "tax_amount": 93.01,
+      "currency": "GBP",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_032",
+    "doc_type": "invoice",
+    "quality_tier": "degraded",
+    "raw_text_content": "== TAX INV0ICE (LOW-RES FAX SCAN) ==\nVend0r..: Acme Industrial Supply LLC\nlnvoice No : INV~10032\nDate (YYYY-MM-DD): 2026-04-19\nCurrencv : USD\nItems Count: 4\nTax Amt: 14.96\nTOTAL DUE: $196.24 (inclusive)\n*faded watermark across bottom*",
+    "expected_fields": {
+      "invoice_number": "INV-10032",
+      "vendor_name": "Acme Industrial Supply LLC",
+      "invoice_date": "2026-04-19",
+      "total_amount": 196.24,
+      "tax_amount": 14.96,
+      "currency": "USD",
+      "line_items_count": 4
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_033",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN BILL OF SALE / INVOICE]\nFrom: NextGen Semiconductor Ltd (Signed: J. Smith)\nBill Ref # INV-10033\nBilled on: 2026-02-02\nCurrency code: EUR\nTotal line entries counted: 6\nTax: 37.80\nGrand Total: 496.03\n[Notes in margin: paid by company check #4401]",
+    "expected_fields": {
+      "invoice_number": "INV-10033",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-02-02",
+      "total_amount": 496.03,
+      "tax_amount": 37.8,
+      "currency": "EUR",
+      "line_items_count": 6
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_034",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN BILL OF SALE / INVOICE]\nFrom: Prime Office Solutions (Signed: J. Smith)\nBill Ref # INV-10034\nBilled on: 2026-08-07\nCurrency code: CAD\nTotal line entries counted: 3\nTax: 271.97\nGrand Total: 3568.55\n[Notes in margin: paid by company check #4401]",
+    "expected_fields": {
+      "invoice_number": "INV-10034",
+      "vendor_name": "Prime Office Solutions",
+      "invoice_date": "2026-08-07",
+      "total_amount": 3568.55,
+      "tax_amount": 271.97,
+      "currency": "CAD",
+      "line_items_count": 3
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_035",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN BILL OF SALE / INVOICE]\nFrom: NextGen Semiconductor Ltd (Signed: J. Smith)\nBill Ref # INV-10035\nBilled on: 2026-08-26\nCurrency code: USD\nTotal line entries counted: 7\nTax: 80.71\nGrand Total: 1058.99\n[Notes in margin: paid by company check #4401]",
+    "expected_fields": {
+      "invoice_number": "INV-10035",
+      "vendor_name": "NextGen Semiconductor Ltd",
+      "invoice_date": "2026-08-26",
+      "total_amount": 1058.99,
+      "tax_amount": 80.71,
+      "currency": "USD",
+      "line_items_count": 7
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_036",
+    "doc_type": "invoice",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN BILL OF SALE / INVOICE]\nFrom: Vanguard Chemical Solutions (Signed: J. Smith)\nBill Ref # INV-10036\nBilled on: 2026-07-12\nCurrency code: USD\nTotal line entries counted: 7\nTax: 159.91\nGrand Total: 2098.20\n[Notes in margin: paid by company check #4401]",
+    "expected_fields": {
+      "invoice_number": "INV-10036",
+      "vendor_name": "Vanguard Chemical Solutions",
+      "invoice_date": "2026-07-12",
+      "total_amount": 2098.2,
+      "tax_amount": 159.91,
+      "currency": "USD",
+      "line_items_count": 7
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_037",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "raw_text_content": "~~~~ CORRUPTED SCAN / UNREADABLE FRAGMENT ~~~~\n[Severe water damage covering 85% of header]\nInv... # [BLURRED]\nTotal: [UNREADABLE BLOB]\nPlease call 1-800-??? for missing slip.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_038",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "raw_text_content": "~~~~ CORRUPTED SCAN / UNREADABLE FRAGMENT ~~~~\n[Severe water damage covering 85% of header]\nInv... # [BLURRED]\nTotal: [UNREADABLE BLOB]\nPlease call 1-800-??? for missing slip.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_039",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "raw_text_content": "~~~~ CORRUPTED SCAN / UNREADABLE FRAGMENT ~~~~\n[Severe water damage covering 85% of header]\nInv... # [BLURRED]\nTotal: [UNREADABLE BLOB]\nPlease call 1-800-??? for missing slip.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_040",
+    "doc_type": "invoice",
+    "quality_tier": "unreadable",
+    "raw_text_content": "~~~~ CORRUPTED SCAN / UNREADABLE FRAGMENT ~~~~\n[Severe water damage covering 85% of header]\nInv... # [BLURRED]\nTotal: [UNREADABLE BLOB]\nPlease call 1-800-??? for missing slip.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_041",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1041\nPolicyholder Number: POL-806073\nPatient Full Name: Danielle Dubois\nTreating Facility: Stanford Health Pavilion\nAdmission Date: 2026-02-02\nPrimary Diagnosis Code (ICD-10): F41.1\nTotal Claimed Charges: $6338.01\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1041",
+      "policy_number": "POL-806073",
+      "patient_name": "Danielle Dubois",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-02-02",
+      "claim_amount": 6338.01,
+      "diagnosis_code": "F41.1"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_042",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1042\nPolicyholder Number: POL-939482\nPatient Full Name: Michael Chang\nTreating Facility: Memorial Sloan Care Center\nAdmission Date: 2026-04-07\nPrimary Diagnosis Code (ICD-10): I10\nTotal Claimed Charges: $8276.14\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1042",
+      "policy_number": "POL-939482",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-04-07",
+      "claim_amount": 8276.14,
+      "diagnosis_code": "I10"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_043",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1043\nPolicyholder Number: POL-542374\nPatient Full Name: Emily Rodriguez\nTreating Facility: Cedars Sinai Regional Hospital\nAdmission Date: 2026-08-08\nPrimary Diagnosis Code (ICD-10): E11.9\nTotal Claimed Charges: $13180.05\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1043",
+      "policy_number": "POL-542374",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-08-08",
+      "claim_amount": 13180.05,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_044",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1044\nPolicyholder Number: POL-564656\nPatient Full Name: Priya Patel\nTreating Facility: Saint Jude Medical Center\nAdmission Date: 2026-01-21\nPrimary Diagnosis Code (ICD-10): M54.5\nTotal Claimed Charges: $14989.60\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1044",
+      "policy_number": "POL-564656",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-01-21",
+      "claim_amount": 14989.6,
+      "diagnosis_code": "M54.5"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_045",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1045\nPolicyholder Number: POL-197793\nPatient Full Name: David K. Miller\nTreating Facility: Presbyterian Health Clinic\nAdmission Date: 2026-07-16\nPrimary Diagnosis Code (ICD-10): S83.511A\nTotal Claimed Charges: $7479.70\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1045",
+      "policy_number": "POL-197793",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-07-16",
+      "claim_amount": 7479.7,
+      "diagnosis_code": "S83.511A"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_046",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1046\nPolicyholder Number: POL-161483\nPatient Full Name: Emily Rodriguez\nTreating Facility: Cleveland Clinic Foundation\nAdmission Date: 2026-01-13\nPrimary Diagnosis Code (ICD-10): N39.0\nTotal Claimed Charges: $4345.44\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1046",
+      "policy_number": "POL-161483",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Cleveland Clinic Foundation",
+      "admission_date": "2026-01-13",
+      "claim_amount": 4345.44,
+      "diagnosis_code": "N39.0"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_047",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1047\nPolicyholder Number: POL-399105\nPatient Full Name: Amanda L. Vance\nTreating Facility: Vanderbilt University Medical\nAdmission Date: 2026-08-05\nPrimary Diagnosis Code (ICD-10): J45.909\nTotal Claimed Charges: $3253.52\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1047",
+      "policy_number": "POL-399105",
+      "patient_name": "Amanda L. Vance",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-08-05",
+      "claim_amount": 3253.52,
+      "diagnosis_code": "J45.909"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_048",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1048\nPolicyholder Number: POL-161324\nPatient Full Name: Marcus Thorne\nTreating Facility: Vanderbilt University Medical\nAdmission Date: 2026-01-24\nPrimary Diagnosis Code (ICD-10): M54.5\nTotal Claimed Charges: $5047.27\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1048",
+      "policy_number": "POL-161324",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-01-24",
+      "claim_amount": 5047.27,
+      "diagnosis_code": "M54.5"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_049",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1049\nPolicyholder Number: POL-712554\nPatient Full Name: James O'Connor\nTreating Facility: Johns Hopkins Community Hospital\nAdmission Date: 2026-03-02\nPrimary Diagnosis Code (ICD-10): E11.9\nTotal Claimed Charges: $14431.29\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1049",
+      "policy_number": "POL-712554",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-03-02",
+      "claim_amount": 14431.29,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_050",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1050\nPolicyholder Number: POL-992697\nPatient Full Name: Emily Rodriguez\nTreating Facility: Saint Jude Medical Center\nAdmission Date: 2026-02-22\nPrimary Diagnosis Code (ICD-10): S83.511A\nTotal Claimed Charges: $12996.38\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1050",
+      "policy_number": "POL-992697",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-02-22",
+      "claim_amount": 12996.38,
+      "diagnosis_code": "S83.511A"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_051",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1051\nPolicyholder Number: POL-225710\nPatient Full Name: Marcus Thorne\nTreating Facility: Memorial Sloan Care Center\nAdmission Date: 2026-01-20\nPrimary Diagnosis Code (ICD-10): Z00.00\nTotal Claimed Charges: $1688.76\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1051",
+      "policy_number": "POL-225710",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-01-20",
+      "claim_amount": 1688.76,
+      "diagnosis_code": "Z00.00"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_052",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1052\nPolicyholder Number: POL-692683\nPatient Full Name: Priya Patel\nTreating Facility: Northwestern Medical Center\nAdmission Date: 2026-05-07\nPrimary Diagnosis Code (ICD-10): F41.1\nTotal Claimed Charges: $10211.03\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1052",
+      "policy_number": "POL-692683",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-05-07",
+      "claim_amount": 10211.03,
+      "diagnosis_code": "F41.1"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_053",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1053\nPolicyholder Number: POL-350280\nPatient Full Name: Jessica Alpert\nTreating Facility: Cleveland Clinic Foundation\nAdmission Date: 2026-03-22\nPrimary Diagnosis Code (ICD-10): N39.0\nTotal Claimed Charges: $9859.76\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1053",
+      "policy_number": "POL-350280",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Cleveland Clinic Foundation",
+      "admission_date": "2026-03-22",
+      "claim_amount": 9859.76,
+      "diagnosis_code": "N39.0"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_054",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1054\nPolicyholder Number: POL-431535\nPatient Full Name: Michael Chang\nTreating Facility: Mercy General Hospital\nAdmission Date: 2026-08-20\nPrimary Diagnosis Code (ICD-10): E11.9\nTotal Claimed Charges: $14977.59\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1054",
+      "policy_number": "POL-431535",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Mercy General Hospital",
+      "admission_date": "2026-08-20",
+      "claim_amount": 14977.59,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_055",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1055\nPolicyholder Number: POL-176819\nPatient Full Name: Priya Patel\nTreating Facility: Memorial Sloan Care Center\nAdmission Date: 2026-05-05\nPrimary Diagnosis Code (ICD-10): E11.9\nTotal Claimed Charges: $14032.26\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1055",
+      "policy_number": "POL-176819",
+      "patient_name": "Priya Patel",
+      "hospital_name": "Memorial Sloan Care Center",
+      "admission_date": "2026-05-05",
+      "claim_amount": 14032.26,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_056",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1056\nPolicyholder Number: POL-356150\nPatient Full Name: Robert T. Harrison\nTreating Facility: Cedars Sinai Regional Hospital\nAdmission Date: 2026-03-15\nPrimary Diagnosis Code (ICD-10): K21.9\nTotal Claimed Charges: $12589.30\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1056",
+      "policy_number": "POL-356150",
+      "patient_name": "Robert T. Harrison",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-03-15",
+      "claim_amount": 12589.3,
+      "diagnosis_code": "K21.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_057",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1057\nPolicyholder Number: POL-741390\nPatient Full Name: Danielle Dubois\nTreating Facility: Johns Hopkins Community Hospital\nAdmission Date: 2026-01-22\nPrimary Diagnosis Code (ICD-10): K21.9\nTotal Claimed Charges: $12348.01\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1057",
+      "policy_number": "POL-741390",
+      "patient_name": "Danielle Dubois",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-01-22",
+      "claim_amount": 12348.01,
+      "diagnosis_code": "K21.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_058",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1058\nPolicyholder Number: POL-795613\nPatient Full Name: Michael Chang\nTreating Facility: Presbyterian Health Clinic\nAdmission Date: 2026-05-04\nPrimary Diagnosis Code (ICD-10): R05\nTotal Claimed Charges: $13400.83\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1058",
+      "policy_number": "POL-795613",
+      "patient_name": "Michael Chang",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-05-04",
+      "claim_amount": 13400.83,
+      "diagnosis_code": "R05"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_059",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1059\nPolicyholder Number: POL-262998\nPatient Full Name: Jessica Alpert\nTreating Facility: Cedars Sinai Regional Hospital\nAdmission Date: 2026-04-23\nPrimary Diagnosis Code (ICD-10): K21.9\nTotal Claimed Charges: $5471.76\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1059",
+      "policy_number": "POL-262998",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-04-23",
+      "claim_amount": 5471.76,
+      "diagnosis_code": "K21.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_060",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1060\nPolicyholder Number: POL-629959\nPatient Full Name: James O'Connor\nTreating Facility: Cedars Sinai Regional Hospital\nAdmission Date: 2026-01-03\nPrimary Diagnosis Code (ICD-10): K21.9\nTotal Claimed Charges: $9697.12\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1060",
+      "policy_number": "POL-629959",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Cedars Sinai Regional Hospital",
+      "admission_date": "2026-01-03",
+      "claim_amount": 9697.12,
+      "diagnosis_code": "K21.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_061",
+    "doc_type": "insurance_claim",
+    "quality_tier": "clean",
+    "raw_text_content": "HEALTH INSURANCE REIMBURSEMENT FORM\n====================================================\nClaim Reference ID: CLM-1061\nPolicyholder Number: POL-146228\nPatient Full Name: Sarah Jenkins\nTreating Facility: Northwestern Medical Center\nAdmission Date: 2026-03-21\nPrimary Diagnosis Code (ICD-10): I10\nTotal Claimed Charges: $14707.07\nAuthorization Signature on File.\n====================================================",
+    "expected_fields": {
+      "claim_id": "CLM-1061",
+      "policy_number": "POL-146228",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-03-21",
+      "claim_amount": 14707.07,
+      "diagnosis_code": "I10"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_062",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1062\nP0licy No: POL-877236\nPatient..: James O'Connor\nHospital.: Johns Hopkins Community Hospital\nAdmitted : 2026-07-18\nICD-10 Code: E11.9\nClaim Amt: 640.21\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1062",
+      "policy_number": "POL-877236",
+      "patient_name": "James O'Connor",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-07-18",
+      "claim_amount": 640.21,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_063",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1063\nP0licy No: POL-824586\nPatient..: Emily Rodriguez\nHospital.: Johns Hopkins Community Hospital\nAdmitted : 2026-01-27\nICD-10 Code: R05\nClaim Amt: 5853.63\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1063",
+      "policy_number": "POL-824586",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Johns Hopkins Community Hospital",
+      "admission_date": "2026-01-27",
+      "claim_amount": 5853.63,
+      "diagnosis_code": "R05"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_064",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1064\nP0licy No: POL-255287\nPatient..: Amanda L. Vance\nHospital.: Presbyterian Health Clinic\nAdmitted : 2026-01-10\nICD-10 Code: M54.5\nClaim Amt: 5787.45\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1064",
+      "policy_number": "POL-255287",
+      "patient_name": "Amanda L. Vance",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-01-10",
+      "claim_amount": 5787.45,
+      "diagnosis_code": "M54.5"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_065",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1065\nP0licy No: POL-475190\nPatient..: David K. Miller\nHospital.: Stanford Health Pavilion\nAdmitted : 2026-04-22\nICD-10 Code: R05\nClaim Amt: 1990.51\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1065",
+      "policy_number": "POL-475190",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-04-22",
+      "claim_amount": 1990.51,
+      "diagnosis_code": "R05"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_066",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1066\nP0licy No: POL-526117\nPatient..: Marcus Thorne\nHospital.: Vanderbilt University Medical\nAdmitted : 2026-03-08\nICD-10 Code: I10\nClaim Amt: 13036.78\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1066",
+      "policy_number": "POL-526117",
+      "patient_name": "Marcus Thorne",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-03-08",
+      "claim_amount": 13036.78,
+      "diagnosis_code": "I10"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_067",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1067\nP0licy No: POL-532322\nPatient..: Sarah Jenkins\nHospital.: Presbyterian Health Clinic\nAdmitted : 2026-06-26\nICD-10 Code: J45.909\nClaim Amt: 13996.83\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1067",
+      "policy_number": "POL-532322",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Presbyterian Health Clinic",
+      "admission_date": "2026-06-26",
+      "claim_amount": 13996.83,
+      "diagnosis_code": "J45.909"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_068",
+    "doc_type": "insurance_claim",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- HEALTH INS CLAIM (PHOTOCOPY) --\nClaim ID.: CLM-1068\nP0licy No: POL-379766\nPatient..: Emily Rodriguez\nHospital.: Vanderbilt University Medical\nAdmitted : 2026-02-13\nICD-10 Code: N39.0\nClaim Amt: 13146.42\n*streaks of carbon toner across footer*",
+    "expected_fields": {
+      "claim_id": "CLM-1068",
+      "policy_number": "POL-379766",
+      "patient_name": "Emily Rodriguez",
+      "hospital_name": "Vanderbilt University Medical",
+      "admission_date": "2026-02-13",
+      "claim_amount": 13146.42,
+      "diagnosis_code": "N39.0"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_069",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]\nClaim identifier: CLM-1069\nIns Policy: POL-333238\nPatient: David K. Miller (DOB verified)\nClinic/Hospital: Mayo Regional Care Facility\nDate admitted: 2026-06-10\nDiagnosis ICD10: J45.909\nTotal requested: $12397.78\nPhysician initial: DR. J.D.",
+    "expected_fields": {
+      "claim_id": "CLM-1069",
+      "policy_number": "POL-333238",
+      "patient_name": "David K. Miller",
+      "hospital_name": "Mayo Regional Care Facility",
+      "admission_date": "2026-06-10",
+      "claim_amount": 12397.78,
+      "diagnosis_code": "J45.909"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_070",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]\nClaim identifier: CLM-1070\nIns Policy: POL-333752\nPatient: Sarah Jenkins (DOB verified)\nClinic/Hospital: Stanford Health Pavilion\nDate admitted: 2026-04-13\nDiagnosis ICD10: E11.9\nTotal requested: $5259.80\nPhysician initial: DR. J.D.",
+    "expected_fields": {
+      "claim_id": "CLM-1070",
+      "policy_number": "POL-333752",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Stanford Health Pavilion",
+      "admission_date": "2026-04-13",
+      "claim_amount": 5259.8,
+      "diagnosis_code": "E11.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_071",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]\nClaim identifier: CLM-1071\nIns Policy: POL-910891\nPatient: Jessica Alpert (DOB verified)\nClinic/Hospital: Northwestern Medical Center\nDate admitted: 2026-07-22\nDiagnosis ICD10: R05\nTotal requested: $14726.67\nPhysician initial: DR. J.D.",
+    "expected_fields": {
+      "claim_id": "CLM-1071",
+      "policy_number": "POL-910891",
+      "patient_name": "Jessica Alpert",
+      "hospital_name": "Northwestern Medical Center",
+      "admission_date": "2026-07-22",
+      "claim_amount": 14726.67,
+      "diagnosis_code": "R05"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_072",
+    "doc_type": "insurance_claim",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN CLINICAL DISCHARGE & CLAIM]\nClaim identifier: CLM-1072\nIns Policy: POL-447235\nPatient: Sarah Jenkins (DOB verified)\nClinic/Hospital: Saint Jude Medical Center\nDate admitted: 2026-05-06\nDiagnosis ICD10: K21.9\nTotal requested: $8918.55\nPhysician initial: DR. J.D.",
+    "expected_fields": {
+      "claim_id": "CLM-1072",
+      "policy_number": "POL-447235",
+      "patient_name": "Sarah Jenkins",
+      "hospital_name": "Saint Jude Medical Center",
+      "admission_date": "2026-05-06",
+      "claim_amount": 8918.55,
+      "diagnosis_code": "K21.9"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_073",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[OUT-OF-SCOPE / CORRUPTED HEALTHCARE DOCUMENT]\nGeneric Cafeteria Menu & Parking Receipt\nLunch Combo: $12.50\nValidated parking slot: B4\n[No insurance policy, claim ID, or medical diagnosis detected]",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_074",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[OUT-OF-SCOPE / CORRUPTED HEALTHCARE DOCUMENT]\nGeneric Cafeteria Menu & Parking Receipt\nLunch Combo: $12.50\nValidated parking slot: B4\n[No insurance policy, claim ID, or medical diagnosis detected]",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_075",
+    "doc_type": "insurance_claim",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[OUT-OF-SCOPE / CORRUPTED HEALTHCARE DOCUMENT]\nGeneric Cafeteria Menu & Parking Receipt\nLunch Combo: $12.50\nValidated parking slot: B4\n[No insurance policy, claim ID, or medical diagnosis detected]",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_076",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Passport\nDocument ID Number: PAS-2818692\nFull Legal Name: Marcus Thorne\nDate of Birth: 1992-06-24\nExpiration Date: 2032-07-20\nNationality / Citizenship: Singapore\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "PAS-2818692",
+      "full_name": "Marcus Thorne",
+      "dob": "1992-06-24",
+      "expiry_date": "2032-07-20",
+      "document_type": "passport",
+      "nationality": "Singapore"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_077",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Passport\nDocument ID Number: PAS-7462506\nFull Legal Name: Marcus Thorne\nDate of Birth: 1977-05-02\nExpiration Date: 2033-01-17\nNationality / Citizenship: Singapore\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "PAS-7462506",
+      "full_name": "Marcus Thorne",
+      "dob": "1977-05-02",
+      "expiry_date": "2033-01-17",
+      "document_type": "passport",
+      "nationality": "Singapore"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_078",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: National Id\nDocument ID Number: NAT-7110622\nFull Legal Name: Amanda L. Vance\nDate of Birth: 1969-11-11\nExpiration Date: 2032-11-28\nNationality / Citizenship: Canada\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "NAT-7110622",
+      "full_name": "Amanda L. Vance",
+      "dob": "1969-11-11",
+      "expiry_date": "2032-11-28",
+      "document_type": "national_id",
+      "nationality": "Canada"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_079",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Drivers License\nDocument ID Number: DRI-9508103\nFull Legal Name: Jessica Alpert\nDate of Birth: 1991-06-13\nExpiration Date: 2031-09-05\nNationality / Citizenship: Germany\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "DRI-9508103",
+      "full_name": "Jessica Alpert",
+      "dob": "1991-06-13",
+      "expiry_date": "2031-09-05",
+      "document_type": "drivers_license",
+      "nationality": "Germany"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_080",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Tax Id\nDocument ID Number: TAX-7361002\nFull Legal Name: Danielle Dubois\nDate of Birth: 1976-10-19\nExpiration Date: 2031-07-18\nNationality / Citizenship: United States\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "TAX-7361002",
+      "full_name": "Danielle Dubois",
+      "dob": "1976-10-19",
+      "expiry_date": "2031-07-18",
+      "document_type": "tax_id",
+      "nationality": "United States"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_081",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Drivers License\nDocument ID Number: DRI-5813613\nFull Legal Name: David K. Miller\nDate of Birth: 1992-10-20\nExpiration Date: 2032-08-15\nNationality / Citizenship: India\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "DRI-5813613",
+      "full_name": "David K. Miller",
+      "dob": "1992-10-20",
+      "expiry_date": "2032-08-15",
+      "document_type": "drivers_license",
+      "nationality": "India"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_082",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: National Id\nDocument ID Number: NAT-9576076\nFull Legal Name: James O'Connor\nDate of Birth: 1975-11-03\nExpiration Date: 2031-09-22\nNationality / Citizenship: Netherlands\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "NAT-9576076",
+      "full_name": "James O'Connor",
+      "dob": "1975-11-03",
+      "expiry_date": "2031-09-22",
+      "document_type": "national_id",
+      "nationality": "Netherlands"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_083",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Drivers License\nDocument ID Number: DRI-2566777\nFull Legal Name: David K. Miller\nDate of Birth: 1984-04-26\nExpiration Date: 2030-03-01\nNationality / Citizenship: United States\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "DRI-2566777",
+      "full_name": "David K. Miller",
+      "dob": "1984-04-26",
+      "expiry_date": "2030-03-01",
+      "document_type": "drivers_license",
+      "nationality": "United States"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_084",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: National Id\nDocument ID Number: NAT-8971465\nFull Legal Name: Marcus Thorne\nDate of Birth: 1969-08-14\nExpiration Date: 2030-12-23\nNationality / Citizenship: Japan\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "NAT-8971465",
+      "full_name": "Marcus Thorne",
+      "dob": "1969-08-14",
+      "expiry_date": "2030-12-23",
+      "document_type": "national_id",
+      "nationality": "Japan"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_085",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Tax Id\nDocument ID Number: TAX-7705062\nFull Legal Name: David K. Miller\nDate of Birth: 1974-11-23\nExpiration Date: 2027-02-25\nNationality / Citizenship: Japan\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "TAX-7705062",
+      "full_name": "David K. Miller",
+      "dob": "1974-11-23",
+      "expiry_date": "2027-02-25",
+      "document_type": "tax_id",
+      "nationality": "Japan"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_086",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: National Id\nDocument ID Number: NAT-3950888\nFull Legal Name: Alexander Wright\nDate of Birth: 1998-08-02\nExpiration Date: 2035-04-28\nNationality / Citizenship: Canada\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "NAT-3950888",
+      "full_name": "Alexander Wright",
+      "dob": "1998-08-02",
+      "expiry_date": "2035-04-28",
+      "document_type": "national_id",
+      "nationality": "Canada"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_087",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Tax Id\nDocument ID Number: TAX-3237058\nFull Legal Name: James O'Connor\nDate of Birth: 1998-09-20\nExpiration Date: 2032-08-20\nNationality / Citizenship: Singapore\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "TAX-3237058",
+      "full_name": "James O'Connor",
+      "dob": "1998-09-20",
+      "expiry_date": "2032-08-20",
+      "document_type": "tax_id",
+      "nationality": "Singapore"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_088",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Tax Id\nDocument ID Number: TAX-8481188\nFull Legal Name: Emily Rodriguez\nDate of Birth: 1995-08-09\nExpiration Date: 2030-11-09\nNationality / Citizenship: Singapore\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "TAX-8481188",
+      "full_name": "Emily Rodriguez",
+      "dob": "1995-08-09",
+      "expiry_date": "2030-11-09",
+      "document_type": "tax_id",
+      "nationality": "Singapore"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_089",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Tax Id\nDocument ID Number: TAX-5013879\nFull Legal Name: Jessica Alpert\nDate of Birth: 1993-02-23\nExpiration Date: 2031-04-09\nNationality / Citizenship: France\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "TAX-5013879",
+      "full_name": "Jessica Alpert",
+      "dob": "1993-02-23",
+      "expiry_date": "2031-04-09",
+      "document_type": "tax_id",
+      "nationality": "France"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_090",
+    "doc_type": "kyc_identity",
+    "quality_tier": "clean",
+    "raw_text_content": "GOVERNMENT IDENTITY VERIFICATION DOCUMENT\n====================================================\nDocument Type: Drivers License\nDocument ID Number: DRI-2351868\nFull Legal Name: Emily Rodriguez\nDate of Birth: 1974-04-13\nExpiration Date: 2029-12-07\nNationality / Citizenship: Canada\nSecurity Microprint & Biometric Chip Verified.\n====================================================",
+    "expected_fields": {
+      "id_number": "DRI-2351868",
+      "full_name": "Emily Rodriguez",
+      "dob": "1974-04-13",
+      "expiry_date": "2029-12-07",
+      "document_type": "drivers_license",
+      "nationality": "Canada"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_091",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- IDENTITY CARD (MOBILE PHOTO / GLARE) --\nDocType: tax_id\nID No: TAX-7838382\nName: Robert T. Harrison\nDOB (YYYY-MM-DD): 1999-08-14\nExpires: 2027-04-27\nCountry/Nat: Japan\n*flash reflection obscuring hologram strip*",
+    "expected_fields": {
+      "id_number": "TAX-7838382",
+      "full_name": "Robert T. Harrison",
+      "dob": "1999-08-14",
+      "expiry_date": "2027-04-27",
+      "document_type": "tax_id",
+      "nationality": "Japan"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_092",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- IDENTITY CARD (MOBILE PHOTO / GLARE) --\nDocType: tax_id\nID No: TAX-1327691\nName: Marcus Thorne\nDOB (YYYY-MM-DD): 1989-08-01\nExpires: 2032-05-25\nCountry/Nat: Japan\n*flash reflection obscuring hologram strip*",
+    "expected_fields": {
+      "id_number": "TAX-1327691",
+      "full_name": "Marcus Thorne",
+      "dob": "1989-08-01",
+      "expiry_date": "2032-05-25",
+      "document_type": "tax_id",
+      "nationality": "Japan"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_093",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- IDENTITY CARD (MOBILE PHOTO / GLARE) --\nDocType: tax_id\nID No: TAX-4700025\nName: James O'Connor\nDOB (YYYY-MM-DD): 1979-05-14\nExpires: 2034-01-13\nCountry/Nat: France\n*flash reflection obscuring hologram strip*",
+    "expected_fields": {
+      "id_number": "TAX-4700025",
+      "full_name": "James O'Connor",
+      "dob": "1979-05-14",
+      "expiry_date": "2034-01-13",
+      "document_type": "tax_id",
+      "nationality": "France"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_094",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- IDENTITY CARD (MOBILE PHOTO / GLARE) --\nDocType: tax_id\nID No: TAX-3768991\nName: James O'Connor\nDOB (YYYY-MM-DD): 1973-10-18\nExpires: 2027-07-19\nCountry/Nat: Netherlands\n*flash reflection obscuring hologram strip*",
+    "expected_fields": {
+      "id_number": "TAX-3768991",
+      "full_name": "James O'Connor",
+      "dob": "1973-10-18",
+      "expiry_date": "2027-07-19",
+      "document_type": "tax_id",
+      "nationality": "Netherlands"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_095",
+    "doc_type": "kyc_identity",
+    "quality_tier": "degraded",
+    "raw_text_content": "-- IDENTITY CARD (MOBILE PHOTO / GLARE) --\nDocType: passport\nID No: PAS-2408404\nName: Danielle Dubois\nDOB (YYYY-MM-DD): 1992-03-28\nExpires: 2034-03-02\nCountry/Nat: Australia\n*flash reflection obscuring hologram strip*",
+    "expected_fields": {
+      "id_number": "PAS-2408404",
+      "full_name": "Danielle Dubois",
+      "dob": "1992-03-28",
+      "expiry_date": "2034-03-02",
+      "document_type": "passport",
+      "nationality": "Australia"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_096",
+    "doc_type": "kyc_identity",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN EMBASSY REGISTRATION FORM]\nRegistered doc type: tax_id\nIdentification ID: TAX-6492066\nApplicant Name: David K. Miller\nBirth Date: 1994-06-11\nValid Until: 2033-05-25\nCitizenship: Japan\n[Thumbprint & ink signature on line 4]",
+    "expected_fields": {
+      "id_number": "TAX-6492066",
+      "full_name": "David K. Miller",
+      "dob": "1994-06-11",
+      "expiry_date": "2033-05-25",
+      "document_type": "tax_id",
+      "nationality": "Japan"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_097",
+    "doc_type": "kyc_identity",
+    "quality_tier": "handwritten",
+    "raw_text_content": "[HANDWRITTEN EMBASSY REGISTRATION FORM]\nRegistered doc type: drivers_license\nIdentification ID: DRI-2374158\nApplicant Name: James O'Connor\nBirth Date: 1966-12-18\nValid Until: 2027-06-08\nCitizenship: Canada\n[Thumbprint & ink signature on line 4]",
+    "expected_fields": {
+      "id_number": "DRI-2374158",
+      "full_name": "James O'Connor",
+      "dob": "1966-12-18",
+      "expiry_date": "2027-06-08",
+      "document_type": "drivers_license",
+      "nationality": "Canada"
+    },
+    "should_reject": false
+  },
+  {
+    "doc_id": "DOC_098",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[CORRUPTED / DEFACED IDENTITY SUBMISSION]\nHeavily blurred smartphone capture.\nResolution: 72x48 pixels.\nFace obscured by finger, text completely illegible.\nREJECT: Unacceptable photo quality.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_099",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[CORRUPTED / DEFACED IDENTITY SUBMISSION]\nHeavily blurred smartphone capture.\nResolution: 72x48 pixels.\nFace obscured by finger, text completely illegible.\nREJECT: Unacceptable photo quality.",
+    "expected_fields": null,
+    "should_reject": true
+  },
+  {
+    "doc_id": "DOC_100",
+    "doc_type": "kyc_identity",
+    "quality_tier": "unreadable",
+    "raw_text_content": "[CORRUPTED / DEFACED IDENTITY SUBMISSION]\nHeavily blurred smartphone capture.\nResolution: 72x48 pixels.\nFace obscured by finger, text completely illegible.\nREJECT: Unacceptable photo quality.",
+    "expected_fields": null,
+    "should_reject": true
+  }
+]
